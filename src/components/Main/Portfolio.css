@@ -1,0 +1,29 @@
+.portfolio {
+  padding: 2rem;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  margin: auto;
+  background-color: #000;
+  text-align: center;
+  padding-bottom: 10%;
+  padding-top: 5%;
+}
+.carousel-description {
+  position: absolute;
+  left: 50%;
+  bottom: 0%;
+  transform: translate(-50%, 0);
+  text-align: center;
+  background-color: #000000a1;
+  padding: 25px;
+  width: 100%;
+}
+.carousel-description a {
+  color: #fff;
+  text-decoration: none;
+}
+.carousel-description a:hover {
+  color: lightgrey;
+  text-decoration: none;
+}
