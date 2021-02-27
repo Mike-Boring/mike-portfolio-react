@@ -2,6 +2,7 @@ import React from 'react';
 import bgVideo from '../../assets/images/background-video.mp4'
 import './Banner.css';
 import { Button } from 'reactstrap';
+import BannerAnimText from './BannerAnimText';
 
 
 const AnimatedBanner = ({element1}) => {
@@ -14,7 +15,7 @@ const AnimatedBanner = ({element1}) => {
             </video>
 
             <section className="banner-content" ref={element1}>
-                <h1 className="large">REACT.js</h1>
+                <BannerAnimText />
                 <h2>Michael Boring</h2>
                 <h3>Full Stack Software Engineer</h3>
                 <Button variant="outline-light">View Portfolio</Button>
