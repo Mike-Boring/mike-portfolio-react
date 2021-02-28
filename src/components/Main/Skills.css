@@ -1,11 +1,15 @@
 .skills {
   padding: 2rem;
-  width: 70rem;
+  width: 100%;
   color: #444;
   text-align: center;
   margin: auto;
   padding-top: 5%;
   padding-bottom: 5%;
+  background-image: url("http://www.mikeboring.com/wp-content/uploads/2021/02/lightbg.jpg");
+  background-attachment: fixed;
+  background-position: bottom;
+  background-size: cover;
 }
 .uniqueCounters {
   display: flex;

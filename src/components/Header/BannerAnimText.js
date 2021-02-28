@@ -23,7 +23,6 @@ const BannerAnimText = () => {
     return () => clearTimeout(intervalId);
   }, []);
   
-
   return (
     <h1 className="large">
         {`${TEXTS[index % TEXTS.length]}`.split("").map((n, i) => (

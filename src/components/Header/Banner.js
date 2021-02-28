@@ -5,7 +5,6 @@ import { Button } from 'reactstrap';
 import BannerAnimText from './BannerAnimText';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
-
 const AnimatedBanner = ({element1}) => {
     const videoSource = bgVideo
     return (

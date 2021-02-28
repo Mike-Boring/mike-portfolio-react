@@ -20,7 +20,17 @@
 .contactColumn button {
   width: 100%;
   padding: 14px;
+  transition: background-color 0.5s;
 }
 .gitLinks {
   padding-top: 7%;
+}
+.socialLink {
+  width: 80px;
+  margin: 4px;
+  transition: width 0.2s;
+}
+.socialLink:hover {
+  width: 75px;
+  opacity: 0.7;
 }

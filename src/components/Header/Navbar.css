@@ -47,10 +47,23 @@
 }
 .navbar--link-item a {
   color: #fff;
+  text-decoration: none;
+}
+.navbar--link-item a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  transition: width 0.3s;
 }
 .navbar--link-item a:hover {
   color: lightgrey;
   text-decoration: none;
+}
+.navbar--link-item a:hover::after {
+  width: 100%;
+  /* transition: width .3s; */
 }
 
 .navbar--link-item-sticky a {

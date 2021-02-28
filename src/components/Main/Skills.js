@@ -2,11 +2,9 @@ import React from "react";
 import "./Skills.css"
 import SkillBar from 'react-skillbars';
 
-
-
 const Skills = () => {
   const colors = {
-    "bar": "lightgrey",
+    "bar": "#abb0b5",
     "title": {
       "text": "#fff",
       "background": "#000"
@@ -38,25 +36,26 @@ const Skills = () => {
     {type: "MySQL", level: 65},
     {type: "PostgreSQL", level: 60},
   ];
+
   return (
-  <section className="skills">
-    <h1>Development Skills</h1>
-    <br/>
-    <div className="uniqueCounters">
-        <div className="counterColumn">
-          <h3>Design</h3>
-          <SkillBar skills={skills} height={'10vh'} colors={colors} />
-        </div>
-        <div className="counterColumn">
-          <h3>Frontend</h3>
-          <SkillBar skills={skills2} height={'10vh'} colors={colors} />
-        </div>
-        <div className="counterColumn">
-          <h3>Backend</h3>
-          <SkillBar skills={skills3} height={'10vh'} colors={colors} />
-        </div>
-    </div>
-  </section>
+    <section className="skills">
+      <h1>Development Skills</h1>
+      <br/>
+      <div className="uniqueCounters">
+          <div className="counterColumn">
+            <h3>Design</h3>
+            <SkillBar skills={skills} height={'10vh'} colors={colors} />
+          </div>
+          <div className="counterColumn">
+            <h3>Frontend</h3>
+            <SkillBar skills={skills2} height={'10vh'} colors={colors} />
+          </div>
+          <div className="counterColumn">
+            <h3>Backend</h3>
+            <SkillBar skills={skills3} height={'10vh'} colors={colors} />
+          </div>
+      </div>
+    </section>
 )};
 
 export default Skills;

@@ -3,7 +3,6 @@ import Carousel from "react-spring-3d-carousel";
 import "./Portfolio.css"
 import ScrollAnimation from 'react-animate-on-scroll';
 
-
 export default class FSPortfolio extends Component {
   state = {
     goToSlide: 0,

@@ -4,14 +4,10 @@
   max-height: 800px;
   overflow: hidden;
 }
-
-/* Style the video: 100% width and height to cover the entire window */
 .Video {
   width: 100%;
   height: 100%;
 }
-
-/* Add some content at the bottom of the video/page */
 .Content {
   position: absolute;
   top: 0;
@@ -41,12 +37,12 @@
   background-color: hsla(0, 0%, 0%, 0);
   font-size: 1.25rem;
   border-radius: 5px;
+  transition: background-color 0.5s;
 }
 .SubContent button:hover {
   background-color: #f1f1f1;
   color: #000000c0;
 }
-
 .SubContent img {
   width: 200px;
   height: 200px;
@@ -55,7 +51,6 @@
   margin: 15px auto;
   border: #f1f1f1 1px solid;
 }
-
 .banner-content {
   position: absolute;
   left: 50%;

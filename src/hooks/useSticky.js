@@ -10,31 +10,28 @@ function useSticky1 () {
     : setSticky1(false);
   }
 
-    // This function handle the scroll performance issue
-    const debounce = (func, wait = 10, immediate = true) => {
-      let timeOut;
-      return () => {
-        let context = this,
-          args = arguments;
-        const later = () => {
-          timeOut = null;
-          if (!immediate) func.apply(context, args);
-        };
-        const callNow = immediate && !timeOut;
-        clearTimeout(timeOut);
-        timeOut = setTimeout(later, wait);
-        if (callNow) func.apply(context, args);
+  const debounce = (func, wait = 10, immediate = true) => {
+    let timeOut;
+    return () => {
+      let context = this,
+        args = arguments;
+      const later = () => {
+        timeOut = null;
+        if (!immediate) func.apply(context, args);
       };
+      const callNow = immediate && !timeOut;
+      clearTimeout(timeOut);
+      timeOut = setTimeout(later, wait);
+      if (callNow) func.apply(context, args);
     };
+  };
   
-
 useEffect(() => {
   window.addEventListener("scroll", debounce(handleScroll))
   return () => {
           window.removeEventListener("scroll", () => handleScroll);
         }  
 }, [debounce, handleScroll])
-
 
   return { isSticky1, element1 }
 }
