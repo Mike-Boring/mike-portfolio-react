@@ -1,13 +1,17 @@
 import React from "react";
 import "./Counters.css"
+import CountUp from 'react-countup';
 
 const Counters = () => (
   <section className="counters">
-    <h1>Counters go here.</h1>
-    <p>
-Html, Css, Javascript, NodeJS, ExpressJS, ReactJS, VueJS, MongoDB, Redux,
-Python, Django, Sql, Git, LAMP, MERN, Agile Workflow.
-    </p>
+    <h1>What Makes Me Unique</h1>
+    <p>Real World experience.</p>
+    <div className="uniqueCounters">
+      <div className="counterColumn"><CountUp end={100} /></div>
+      <div className="counterColumn"><CountUp end={100} /></div>
+      <div className="counterColumn"><CountUp end={100} /></div>
+      <div className="counterColumn"><CountUp end={100} /></div>
+    </div>
   </section>
 );
 

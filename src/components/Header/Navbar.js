@@ -1,6 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import Logo from "../../assets/images/mb-icon3.png";
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Navbar = ({ sticky1 }) => {
 return (
@@ -9,10 +10,10 @@ return (
       {sticky1 ? <img src={Logo} alt="logo" className="navbar--logo-sticky" /> : <img src={Logo} alt="logo" className="navbar--logo" />}
     </div>
     <ul className="navbar--link">
-      {sticky1 ? <li className="navbar--link-item-sticky">HOME</li> : <li className="navbar--link-item">HOME</li>}
-      {sticky1 ? <li className="navbar--link-item-sticky">PORTFOLIO</li> : <li className="navbar--link-item">PORTFOLIO</li>}
-      {sticky1 ? <li className="navbar--link-item-sticky">SKILLS</li> : <li className="navbar--link-item">SKILLS</li>}
-      {sticky1 ? <li className="navbar--link-item-sticky">CONTACT</li> : <li className="navbar--link-item">CONTACT</li>}
+      {sticky1 ? <li className="navbar--link-item-sticky"><AnchorLink href='#root'>HOME</AnchorLink></li> : <li className="navbar--link-item"><AnchorLink href='#root'>HOME</AnchorLink></li>}
+      {sticky1 ? <li className="navbar--link-item-sticky"><AnchorLink href='#portfolioFS'>PORTFOLIO</AnchorLink></li> : <li className="navbar--link-item"><AnchorLink href='#portfolioFS'>PORTFOLIO</AnchorLink></li>}
+      {sticky1 ? <li className="navbar--link-item-sticky"><AnchorLink href='#skills'>SKILLS</AnchorLink></li> : <li className="navbar--link-item"><AnchorLink href='#skills'>SKILLS</AnchorLink></li>}
+      {sticky1 ? <li className="navbar--link-item-sticky"><AnchorLink href='#contact'>CONTACT</AnchorLink></li> : <li className="navbar--link-item"><AnchorLink href='#contact'>CONTACT</AnchorLink></li>}
     </ul>
   </nav>
 )};

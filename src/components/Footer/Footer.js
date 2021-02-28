@@ -4,7 +4,7 @@ import ScrollTopArrow from '../../components/Main/ScrollTopArrow.js';
 
 const Footer = () => {
     return (
-            <section className='footer'>
+            <section className='footer' id="contact">
                 <div>
                     <h1>Footer Text</h1>
                     <button className='welcome__cta-primary'>

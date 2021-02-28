@@ -1,12 +1,15 @@
 import React from "react";
 import './About.css'
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const About = () => (
   <section className="about">
-    <h1>Fullstack software and web developer.</h1>
-    <p className="about">
-      Html, Css, Javascript, NodeJS, ExpressJS, ReactJS, VueJS, MongoDB, Redux, Python, Django, Sql, Git, LAMP, MERN, Agile Workflow.
-    </p>
+    <ScrollAnimation animateIn="animate__zoomIn">           
+      <h1>Fullstack software and web developer.</h1>
+    </ScrollAnimation>
+    <ScrollAnimation animateIn="animate__fadeInUp">           
+      <p>Html, Css, Javascript, NodeJS, ExpressJS, ReactJS, VueJS, MongoDB, Redux, Python, Django, Sql, Git, LAMP, MERN, Agile Workflow.</p>
+    </ScrollAnimation>
   </section>
 );
 

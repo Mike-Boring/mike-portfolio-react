@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Carousel from "react-spring-3d-carousel";
 import "./Portfolio.css"
+import ScrollAnimation from 'react-animate-on-scroll';
 
 
 export default class FSPortfolio extends Component {
@@ -54,16 +55,20 @@ export default class FSPortfolio extends Component {
 
   render() {
     return (
-        <section className='portfolio'>
-            <h1>Full Stack Portfolio</h1> 
+        <section className='portfolio' id="portfolioFS">
+              <h1>Full Stack Portfolio</h1> 
+              <br/><br/>
+            <ScrollAnimation animateIn="animate__zoomIn">           
+              <div style={{ width: "80%", height: "500px", margin: "0 auto" }}>
+                  <Carousel
+                  slides={this.slides}
+                  goToSlide={this.state.goToSlide}
+                  showNavigation={this.state.showNavigation}
+                  />
+              </div>
+            </ScrollAnimation>
+            <div id="skills"></div>
             <br/><br/>
-            <div style={{ width: "80%", height: "500px", margin: "0 auto" }}>
-                <Carousel
-                slides={this.slides}
-                goToSlide={this.state.goToSlide}
-                showNavigation={this.state.showNavigation}
-                />
-            </div>
         </section>
     );
   }

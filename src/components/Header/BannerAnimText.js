@@ -32,7 +32,7 @@ const BannerAnimText = () => {
         springConfig={ presets.gentle }
         direction="down"
         className="anim-text"
-        inline="true"
+        inline
                 key={i}
                 delay={i * 200}
                 noOverflow
