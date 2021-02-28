@@ -12,37 +12,89 @@ export default class Education extends Component {
 
   slides = [
     {
-        key: 1,
-        content: <><img src="https://picsum.photos/800/800/?random" alt="1" /><div className="carousel-description">React and django back end.<br/><a href="http://google.com">View Repo</a></div></>
-      },
-      {
-        key: 2,
-        content: <><img src="https://picsum.photos/800/800/?random" alt="2" /><div className="carousel-description">React and django back end.<br/><a href="http://google.com">View Repo</a></div></>
-      },
-      {
-        key: 3,
-        content: <><img src="https://picsum.photos/600/800/?random" alt="3" /><div className="carousel-description">React and django back end.<br/><a href="http://google.com">View Repo</a></div></>
-      },
-      {
-        key: 4,
-        content: <><img src="https://picsum.photos/800/500/?random" alt="4" /><div className="carousel-description">React and django back end.<br/><a href="http://google.com">View Repo</a></div></>
-      },
-      {
-        key: 5,
-        content: <><img src="https://picsum.photos/800/800/?random" alt="5" /><div className="carousel-description">React and django back end.<br/><a href="http://google.com">View Repo</a></div></>
-      },
-      {
-        key: 6,
-        content: <><img src="https://picsum.photos/500/800/?random" alt="6" /><br/><div className="carousel-description">React and django back end.<br/><a href="http://google.com">View Repo</a></div></>
-      },
-      {
-        key: 7,
-        content: <><img src="https://picsum.photos/800/600/?random" alt="7" /><div className="carousel-description">React and django back end.<br/><a href="http://google.com">View Repo</a></div></>
-      },
-      {
-        key: 8,
-        content: <><img src="https://picsum.photos/800/800/?random" alt="8" /><div className="carousel-description">React and django back end.<br/><a href="http://google.com">View Repo</a></div></>
-      }
+      key: 1,
+      content: (
+        <>
+          <img src="http://www.mikeboring.com/wp-content/uploads/2020/10/Boring-Michael-full-stack.png" alt="1" />
+          <div className="carousel-description">
+            <strong>Kenzie Academy<br />
+            Full-Stack Web Development (12 Month Program)</strong><br />
+            Indianapolis, Indiana
+            <br/>
+            <a target="_blank" href="http://www.mikeboring.com/wp-content/uploads/2020/10/Boring-Michael-full-stack.png">
+              View Certificate
+            </a>
+          </div>
+        </>
+      )
+    },
+    {
+      key: 2,
+      content: (
+        <>
+          <img src="http://www.mikeboring.com/wp-content/uploads/2020/08/certs4.jpg" alt="2" />
+          <div className="carousel-description">
+            <strong>Kenzie Academy<br />
+            Frontend Web Development (6 Month Program)</strong><br />
+            Indianapolis, Indiana
+            <br/>
+            <a target="_blank" href="http://www.mikeboring.com/wp-content/uploads/2020/08/certs4.jpg">
+              View Certificate
+            </a>
+          </div>
+        </>
+      )
+    },
+    {
+      key: 3,
+      content: (
+        <>
+          <img src="http://www.mikeboring.com/wp-content/uploads/2020/08/certs1.jpg" alt="3" />
+          <div className="carousel-description">
+            <strong>Coursera Academy<br />
+            Html, Css and Javascript (3 Month Program)</strong>
+            <br/>
+            <a target="_blank" href="http://www.mikeboring.com/wp-content/uploads/2020/08/certs1.jpg">
+              View Certificate
+            </a>
+          </div>
+        </>
+      )
+    },
+    {
+      key: 4,
+      content: (
+        <>
+          <img src="http://www.mikeboring.com/wp-content/uploads/2020/08/certs3.jpg" alt="4" />
+          <div className="carousel-description">
+            <strong>Coursera Academy (3 Month Program)<br/>
+            Frontend Bootstrap 4
+            </strong>
+            <br/>
+            <a target="_blank" href="http://www.mikeboring.com/wp-content/uploads/2020/08/certs3.jpg">
+              View Certificate
+            </a>
+          </div>
+        </>
+      )
+    },
+    {
+      key: 5,
+      content: (
+        <>
+          <img src="http://www.mikeboring.com/wp-content/uploads/2020/08/certs2.jpg" alt="5" />
+          <div className="carousel-description">
+            <strong>Coursera Academy (3 Month Program)<br/>
+            Frontend Web Frameworks
+            </strong>
+            <br/>
+            <a target="_blank" href="http://www.mikeboring.com/wp-content/uploads/2020/08/certs2.jpg">
+              View Certificate
+            </a>
+          </div>
+        </>
+      )
+    }
   ].map((slide, index) => {
     return { ...slide, onClick: () => this.setState({ goToSlide: index }) };
   });

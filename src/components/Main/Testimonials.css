@@ -5,6 +5,21 @@
   text-align: justify;
   margin: auto;
   padding-top: 5%;
-  padding-bottom: 5%;
+  padding-bottom: 7%;
   text-align: center;
+}
+.uniqueTestimonials {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.testimonialsColumn {
+  width: 30%;
+}
+.star {
+  width: 40px;
+  align-items: center;
+  height: 20px;
+  justify-content: center;
+  color: grey;
 }

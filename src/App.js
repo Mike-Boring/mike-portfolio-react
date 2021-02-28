@@ -9,6 +9,7 @@ import Education from './components/Main/Education.js'
 import DPortfolio from './components/Main/DPortfolio.js'
 import Testimonials from './components/Main/Testimonials.js'
 import AnimatedBanner from './components/Header/Banner.js'
+import Contact from './components/Main/Contact.js'
 
 function App() {
     const { isSticky1, element1 } = useSticky1()
@@ -23,6 +24,7 @@ function App() {
               <Education />
               <DPortfolio />
               <Testimonials />
+              <Contact />
             </main>
             <Footer />
         </>

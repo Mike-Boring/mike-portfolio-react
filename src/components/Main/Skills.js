@@ -55,7 +55,7 @@ const Skills = () => {
           <h3>Backend</h3>
           <SkillBar skills={skills3} height={'10vh'} colors={colors} />
         </div>
-      </div>
+    </div>
   </section>
 )};
 

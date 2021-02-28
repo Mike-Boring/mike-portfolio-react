@@ -1,0 +1,26 @@
+.contact {
+  padding: 2rem;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  margin: auto;
+  background-color: #000;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.uniqueContact {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 5%;
+}
+.contactColumn {
+  width: 48%;
+}
+.contactColumn button {
+  width: 100%;
+  padding: 14px;
+}
+.gitLinks {
+  padding-top: 7%;
+}
