@@ -4,7 +4,6 @@ import Navbar from './components/Header/Navbar'
 import About from './components/Main/About.js'
 import Footer from './components/Footer/Footer'
 import FSPortfolio from './components/Main/FSPortfolio.js'
-import Counters from './components/Main/Counters.js'
 import Skills from './components/Main/Skills.js'
 import Education from './components/Main/Education.js'
 import DPortfolio from './components/Main/DPortfolio.js'
@@ -20,7 +19,6 @@ function App() {
               <AnimatedBanner element1={element1} />
               <About />
               <FSPortfolio />
-              <Counters />
               <Skills />
               <Education />
               <DPortfolio />

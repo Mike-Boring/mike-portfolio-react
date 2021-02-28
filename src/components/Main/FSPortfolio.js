@@ -69,22 +69,67 @@ export default class FSPortfolio extends Component {
             </a>
           </div>
         </>
-      )},
+      )
+    },
     {
       key: 5,
-      content: <><img src="http://www.mikeboring.com/wp-content/uploads/2020/08/TowerOfHanoi.jpg" alt="1" /><div className="carousel-description"><strong>Javascript Application</strong><br/><a target="_blank" href="https://shekinah999.gitlab.io/tower-of-hanoi/">View Application</a></div></>
+      content: (
+        <>
+          <img src="http://www.mikeboring.com/wp-content/uploads/2020/08/jeopardy.jpg" alt="1" />
+          <div className="carousel-description">
+            <strong>Javascript Application, REST API</strong>
+            <br/>
+            <a target="_blank" href="https://shekinah999.gitlab.io/jeopardy-lab/">
+              View Application
+            </a>
+          </div>
+        </>
+      )
     },
     {
       key: 6,
-      content: <><img src="http://www.mikeboring.com/wp-content/uploads/2020/08/TowerOfHanoi.jpg" alt="1" /><div className="carousel-description"><strong>Javascript Application</strong><br/><a target="_blank" href="https://shekinah999.gitlab.io/tower-of-hanoi/">View Application</a></div></>
+      content: (
+        <>
+          <img src="http://www.mikeboring.com/wp-content/uploads/2020/08/5a.jpg" alt="1" />
+          <div className="carousel-description">
+            <strong>LAMP Stack - CMS - MLS Search</strong>
+            <br/>
+            <a target="_blank" href="http://raynorrealty719.com/">
+              View Website
+            </a>
+          </div>
+        </>
+      )
     },
     {
       key: 7,
-      content: <><img src="http://www.mikeboring.com/wp-content/uploads/2020/08/TowerOfHanoi.jpg" alt="1" /><div className="carousel-description"><strong>Javascript Application</strong><br/><a target="_blank" href="https://shekinah999.gitlab.io/tower-of-hanoi/">View Application</a></div></>
+      content: (
+        <>
+          <img src="http://www.mikeboring.com/wp-content/uploads/2020/08/qwitters.jpg" alt="1" />
+          <div className="carousel-description">
+            <strong>REACT, REDUX Application</strong>
+            <br/>
+            <a target="_blank" href="https://shekinah999.gitlab.io/assessment---kwitter-frontend/">
+              View Application
+            </a>
+          </div>
+        </>
+      )
     },
     {
       key: 8,
-      content: <><img src="http://www.mikeboring.com/wp-content/uploads/2020/08/TowerOfHanoi.jpg" alt="1" /><div className="carousel-description"><strong>Javascript Application</strong><br/><a target="_blank" href="https://shekinah999.gitlab.io/tower-of-hanoi/">View Application</a></div></>
+      content: (
+        <>
+          <img src="http://www.mikeboring.com/wp-content/uploads/2020/08/1a.jpg" alt="1" />
+          <div className="carousel-description">
+            <strong>LAMP Stack - CMS - Event Calendar</strong>
+            <br/>
+            <a target="_blank" href="https://bendiscompany.com/">
+              View Website
+            </a>
+          </div>
+        </>
+      )
     }
   ].map((slide, index) => {
     return { ...slide, onClick: () => this.setState({ goToSlide: index }) };
@@ -110,8 +155,8 @@ export default class FSPortfolio extends Component {
                   />
               </div>
             </ScrollAnimation>
-            <div id="skills"></div>
             <br/><br/>
+            <div id="skills"></div>
         </section>
     );
   }
