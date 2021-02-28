@@ -1,12 +1,12 @@
 .education {
   padding: 2rem;
-  width: 70rem;
+  width: 100%;
   color: #444;
-  text-align: justify;
   margin: auto;
   text-align: center;
   padding-bottom: 10%;
   padding-top: 5%;
+  background-color: lightgrey;
 }
 .carousel-description {
   position: absolute;

@@ -1,8 +1,8 @@
 .scrollTop {
   position: fixed;
-  width: 100%;
+  width: 100px;
   bottom: 20px;
-  right: -638px;
+  right: 0px;
   align-items: center;
   height: 20px;
   justify-content: center;

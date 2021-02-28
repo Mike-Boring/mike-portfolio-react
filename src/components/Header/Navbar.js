@@ -7,7 +7,7 @@ const Navbar = ({ sticky1 }) => {
 return (
   <nav className={sticky1 ? "mynavbar mynavbar-sticky" : "mynavbar"}>
     <div className="mynavbar--logo-holder">
-      {sticky1 ? <img src={Logo} alt="logo" className="navbar--logo-sticky" /> : <img src={Logo} alt="logo" className="navbar--logo" />}
+      {sticky1 ? <AnchorLink href='#root'><img src={Logo} alt="logo" className="navbar--logo-sticky" /></AnchorLink> : <AnchorLink href='#root'><img src={Logo} alt="logo" className="navbar--logo" /></AnchorLink>}
     </div>
     <ul className="navbar--link">
       {sticky1 ? <li className="navbar--link-item-sticky"><AnchorLink href='#root'>HOME</AnchorLink></li> : <li className="navbar--link-item"><AnchorLink href='#root'>HOME</AnchorLink></li>}

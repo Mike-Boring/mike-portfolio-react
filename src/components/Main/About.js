@@ -8,7 +8,7 @@ const About = () => (
       <h1>Fullstack software and web developer.</h1>
     </ScrollAnimation>
     <ScrollAnimation animateIn="animate__fadeInUp">           
-      <p>Html, Css, Javascript, NodeJS, ExpressJS, ReactJS, VueJS, MongoDB, Redux, Python, Django, Sql, Git, LAMP, MERN, Agile Workflow.</p>
+      <h5>Html, Css, Javascript, NodeJS, ExpressJS, ReactJS, VueJS, MongoDB, Redux, Python, Django, Sql, Git, LAMP, MERN, Agile Workflow.</h5>
     </ScrollAnimation>
   </section>
 );

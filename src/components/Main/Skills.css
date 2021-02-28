@@ -2,8 +2,16 @@
   padding: 2rem;
   width: 70rem;
   color: #444;
-  text-align: justify;
+  text-align: center;
   margin: auto;
   padding-top: 5%;
   padding-bottom: 5%;
+}
+.uniqueCounters {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.counterColumn {
+  width: 30%;
 }
