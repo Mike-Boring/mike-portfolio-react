@@ -1,12 +1,13 @@
 .testimonials {
   padding: 2rem;
-  width: 70rem;
+  width: 100%;
   color: #444;
   text-align: justify;
   margin: auto;
   padding-top: 5%;
   padding-bottom: 7%;
   text-align: center;
+  background-image: linear-gradient(white, #abb0b5);
 }
 .uniqueTestimonials {
   display: flex;

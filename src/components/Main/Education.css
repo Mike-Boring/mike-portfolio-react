@@ -6,7 +6,7 @@
   text-align: center;
   padding-bottom: 10%;
   padding-top: 5%;
-  background-color: #abb0b5;
+  background-image: linear-gradient(to bottom left, white, #abb0b5);
 }
 .carousel-description {
   position: absolute;
