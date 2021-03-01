@@ -2,6 +2,22 @@ import React, { Component } from "react";
 import Carousel from "react-spring-3d-carousel";
 import "./Portfolio.css"
 import ScrollAnimation from 'react-animate-on-scroll';
+import image1 from "../../assets/images/portfolio-fs/12a.jpg";
+import image2 from "../../assets/images/portfolio-fs/VueSample.jpg";
+import image3 from "../../assets/images/portfolio-fs/shoppies.jpg";
+import image4 from "../../assets/images/portfolio-fs/13a.jpg";
+import image5 from "../../assets/images/portfolio-fs/jeopardy.jpg";
+import image6 from "../../assets/images/portfolio-fs/5a.jpg";
+import image7 from "../../assets/images/portfolio-fs/qwitters.jpg";
+import image8 from "../../assets/images/portfolio-fs/1a.jpg";
+import image9 from "../../assets/images/portfolio-fs/TodosList.jpg";
+import image10 from "../../assets/images/portfolio-fs/2a.jpg";
+import image11 from "../../assets/images/portfolio-fs/ConnectFour.jpg";
+import image12 from "../../assets/images/portfolio-fs/RockPaperScissors.jpg";
+import image13 from "../../assets/images/portfolio-fs/4a.jpg";
+import image14 from "../../assets/images/portfolio-fs/Maze.jpg";
+import image15 from "../../assets/images/portfolio-fs/TowerOfHanoi.jpg";
+import image16 from "../../assets/images/portfolio-fs/mbp-react.jpg";
 
 export default class FSPortfolio extends Component {
   state = {
@@ -14,11 +30,11 @@ export default class FSPortfolio extends Component {
       key: 1,
       content: (
         <>
-          <img src="http://www.mikeboring.com/wp-content/uploads/2020/10/12a.jpg" alt="1" />
+          <img src={image1} alt="1" />
           <div className="carousel-description">
             <strong>Django Python Front End and Back End Application</strong>
             <br/>
-            <a target="_blank" href="https://github.com/Mike-Boring/micro-brew-for-you-capstone">
+            <a target="_blank" rel="noreferrer" href="https://github.com/Mike-Boring/micro-brew-for-you-capstone">
               View Github Repo
             </a>
           </div>
@@ -28,11 +44,11 @@ export default class FSPortfolio extends Component {
       key: 2,
       content: (
       <>
-        <img src="http://www.mikeboring.com/wp-content/uploads/2021/01/VueSample.jpg" alt="2" />
+        <img src={image2} alt="2" />
         <div className="carousel-description">
           <strong>Vue.js Sample Survey Component</strong>
           <br/>
-          <a target="_blank" href="https://mike-boring.github.io/vue-developer-sample/">
+          <a target="_blank" rel="noreferrer" href="https://mike-boring.github.io/vue-developer-sample/">
             View Application
           </a>
         </div>
@@ -42,11 +58,11 @@ export default class FSPortfolio extends Component {
       key: 3,
       content: (
         <>
-          <img src="http://www.mikeboring.com/wp-content/uploads/2021/01/shoppies.jpg" alt="3" />
+          <img src={image3} alt="3" />
           <div className="carousel-description">
             <strong>REACT.js Application, REST API</strong>
             <br/>
-            <a target="_blank" href="https://mike-boring.github.io/shoppies/">
+            <a target="_blank" rel="noreferrer" href="https://mike-boring.github.io/shoppies/">
               View Application
             </a>
           </div>
@@ -56,14 +72,14 @@ export default class FSPortfolio extends Component {
       key: 4,
       content: (
         <>
-          <img src="http://www.mikeboring.com/wp-content/uploads/2020/10/13a.jpg" alt="4" />
+          <img src={image4} alt="4" />
           <div className="carousel-description">
             <strong>React Front End and Django Rest Framework Back End Application</strong>
             <br/>
-            <a target="_blank" href="https://github.com/Mike-Boring/ghostpost_frontend">
+            <a target="_blank" rel="noreferrer" href="https://github.com/Mike-Boring/ghostpost_frontend">
               View Frontend Repo
             </a> - 
-            <a target="_blank" href="https://github.com/Mike-Boring/ghostpost_backend">
+            <a target="_blank" rel="noreferrer" href="https://github.com/Mike-Boring/ghostpost_backend">
               View Backend Repo
             </a>
           </div>
@@ -74,11 +90,11 @@ export default class FSPortfolio extends Component {
       key: 5,
       content: (
         <>
-          <img src="http://www.mikeboring.com/wp-content/uploads/2020/08/jeopardy.jpg" alt="5" />
+          <img src={image5} alt="5" />
           <div className="carousel-description">
             <strong>Javascript Application, REST API</strong>
             <br/>
-            <a target="_blank" href="https://shekinah999.gitlab.io/jeopardy-lab/">
+            <a target="_blank" rel="noreferrer" href="https://shekinah999.gitlab.io/jeopardy-lab/">
               View Application
             </a>
           </div>
@@ -89,11 +105,11 @@ export default class FSPortfolio extends Component {
       key: 6,
       content: (
         <>
-          <img src="http://www.mikeboring.com/wp-content/uploads/2020/08/5a.jpg" alt="6" />
+          <img src={image6} alt="6" />
           <div className="carousel-description">
             <strong>LAMP Stack - CMS - MLS Search</strong>
             <br/>
-            <a target="_blank" href="http://raynorrealty719.com/">
+            <a target="_blank" rel="noreferrer" href="http://raynorrealty719.com/">
               View Website
             </a>
           </div>
@@ -104,11 +120,11 @@ export default class FSPortfolio extends Component {
       key: 7,
       content: (
         <>
-          <img src="http://www.mikeboring.com/wp-content/uploads/2020/08/qwitters.jpg" alt="7" />
+          <img src={image7} alt="7" />
           <div className="carousel-description">
             <strong>REACT, REDUX Application</strong>
             <br/>
-            <a target="_blank" href="https://shekinah999.gitlab.io/assessment---kwitter-frontend/">
+            <a target="_blank" rel="noreferrer" href="https://shekinah999.gitlab.io/assessment---kwitter-frontend/">
               View Application
             </a>
           </div>
@@ -119,11 +135,11 @@ export default class FSPortfolio extends Component {
       key: 8,
       content: (
         <>
-          <img src="http://www.mikeboring.com/wp-content/uploads/2020/08/1a.jpg" alt="8" />
+          <img src={image8} alt="8" />
           <div className="carousel-description">
             <strong>LAMP Stack - CMS - Event Calendar</strong>
             <br/>
-            <a target="_blank" href="https://bendiscompany.com/">
+            <a target="_blank" rel="noreferrer" href="https://bendiscompany.com/">
               View Website
             </a>
           </div>
@@ -134,11 +150,11 @@ export default class FSPortfolio extends Component {
       key: 9,
       content: (
         <>
-          <img src="http://www.mikeboring.com/wp-content/uploads/2020/08/TodosList.jpg" alt="9" />
+          <img src={image9} alt="9" />
           <div className="carousel-description">
             <strong>REACT, REDUX Application</strong>
             <br/>
-            <a target="_blank" href="https://shekinah999.gitlab.io/assessment-todo-app-part-3/Todos">
+            <a target="_blank" rel="noreferrer" href="https://shekinah999.gitlab.io/assessment-todo-app-part-3/Todos">
               View Application
             </a>
           </div>
@@ -148,11 +164,11 @@ export default class FSPortfolio extends Component {
       key: 10,
       content: (
       <>
-        <img src="http://www.mikeboring.com/wp-content/uploads/2020/08/2a.jpg" alt="10" />
+        <img src={image10} alt="10" />
         <div className="carousel-description">
           <strong>LAMP Stack - CMS - Event Calendar - Prayer Wall - Ecommerce</strong>
           <br/>
-          <a target="_blank" href="http://remnantseedgospelministries.org/">
+          <a target="_blank" rel="noreferrer" href="http://remnantseedgospelministries.org/">
             View Website
           </a>
         </div>
@@ -162,11 +178,11 @@ export default class FSPortfolio extends Component {
       key: 11,
       content: (
         <>
-          <img src="http://www.mikeboring.com/wp-content/uploads/2020/08/ConnectFour.jpg" alt="11" />
+          <img src={image11} alt="11" />
           <div className="carousel-description">
             <strong>Javascript Application</strong>
             <br/>
-            <a target="_blank" href="https://shekinah999.gitlab.io/connect-four/">
+            <a target="_blank" rel="noreferrer" href="https://shekinah999.gitlab.io/connect-four/">
               View Application
             </a>
           </div>
@@ -176,11 +192,11 @@ export default class FSPortfolio extends Component {
       key: 12,
       content: (
         <>
-          <img src="http://www.mikeboring.com/wp-content/uploads/2020/08/RockPaperScissors.jpg" alt="12" />
+          <img src={image12} alt="12" />
           <div className="carousel-description">
             <strong>Javascript Application</strong>
             <br/>
-            <a target="_blank" href="https://shekinah999.gitlab.io/game-of-chance/">
+            <a target="_blank" rel="noreferrer" href="https://shekinah999.gitlab.io/game-of-chance/">
               View Application
             </a>
           </div>
@@ -191,11 +207,11 @@ export default class FSPortfolio extends Component {
       key: 13,
       content: (
         <>
-          <img src="http://www.mikeboring.com/wp-content/uploads/2020/08/4a.jpg" alt="13" />
+          <img src={image13} alt="13" />
           <div className="carousel-description">
             <strong>LAMP Stack - CMS - Ecommerce - Reservations</strong>
             <br/>
-            <a target="_blank" href="https://greywolfresort.com/">
+            <a target="_blank" rel="noreferrer" href="https://greywolfresort.com/">
               View Website
             </a>
           </div>
@@ -206,11 +222,11 @@ export default class FSPortfolio extends Component {
       key: 14,
       content: (
         <>
-          <img src="http://www.mikeboring.com/wp-content/uploads/2020/08/Maze.jpg" alt="14" />
+          <img src={image14} alt="14" />
           <div className="carousel-description">
             <strong>Javascript Application</strong>
             <br/>
-            <a target="_blank" href="https://shekinah999.gitlab.io/maze/">
+            <a target="_blank" rel="noreferrer" href="https://shekinah999.gitlab.io/maze/">
               View Application
             </a>
           </div>
@@ -221,11 +237,11 @@ export default class FSPortfolio extends Component {
       key: 15,
       content: (
         <>
-          <img src="http://www.mikeboring.com/wp-content/uploads/2020/08/TowerOfHanoi.jpg" alt="15" />
+          <img src={image15} alt="15" />
           <div className="carousel-description">
             <strong>Javascript Application</strong>
             <br/>
-            <a target="_blank" href="https://shekinah999.gitlab.io/tower-of-hanoi/">
+            <a target="_blank" rel="noreferrer" href="https://shekinah999.gitlab.io/tower-of-hanoi/">
               View Application
             </a>
           </div>
@@ -236,11 +252,11 @@ export default class FSPortfolio extends Component {
       key: 16,
       content: (
         <>
-          <img src="http://www.mikeboring.com/wp-content/uploads/2021/02/mbp-react.jpg" alt="16" />
+          <img src={image16} alt="16" />
           <div className="carousel-description">
             <strong>REACT Application</strong>
             <br/>
-            <a target="_blank" href="https://github.com/Mike-Boring/mike-portfolio-react">
+            <a target="_blank" rel="noreferrer" href="https://github.com/Mike-Boring/mike-portfolio-react">
               View Repo
             </a>
           </div>

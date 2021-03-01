@@ -2,6 +2,11 @@ import React, { Component } from "react";
 import Carousel from "react-spring-3d-carousel";
 import "./Education.css"
 import ScrollAnimation from 'react-animate-on-scroll';
+import image1 from "../../assets/images/certs/certs5.png";
+import image2 from "../../assets/images/certs/certs4.jpg";
+import image3 from "../../assets/images/certs/certs1.jpg";
+import image4 from "../../assets/images/certs/certs3.jpg";
+import image5 from "../../assets/images/certs/certs2.jpg";
 
 export default class Education extends Component {
   state = {
@@ -14,15 +19,11 @@ export default class Education extends Component {
       key: 1,
       content: (
         <>
-          <img src="http://www.mikeboring.com/wp-content/uploads/2020/10/Boring-Michael-full-stack.png" alt="1" />
+          <img src={image1} alt="1" />
           <div className="carousel-description">
             <strong>Kenzie Academy<br />
             Full-Stack Web Development (12 Month Program)</strong><br />
             Indianapolis, Indiana
-            <br/>
-            <a target="_blank" href="http://www.mikeboring.com/wp-content/uploads/2020/10/Boring-Michael-full-stack.png">
-              View Certificate
-            </a>
           </div>
         </>
       )
@@ -31,15 +32,11 @@ export default class Education extends Component {
       key: 2,
       content: (
         <>
-          <img src="http://www.mikeboring.com/wp-content/uploads/2020/08/certs4.jpg" alt="2" />
+          <img src={image2} alt="2" />
           <div className="carousel-description">
             <strong>Kenzie Academy<br />
             Frontend Web Development (6 Month Program)</strong><br />
             Indianapolis, Indiana
-            <br/>
-            <a target="_blank" href="http://www.mikeboring.com/wp-content/uploads/2020/08/certs4.jpg">
-              View Certificate
-            </a>
           </div>
         </>
       )
@@ -48,14 +45,10 @@ export default class Education extends Component {
       key: 3,
       content: (
         <>
-          <img src="http://www.mikeboring.com/wp-content/uploads/2020/08/certs1.jpg" alt="3" />
+          <img src={image3} alt="3" />
           <div className="carousel-description">
             <strong>Coursera Academy<br />
             Html, Css and Javascript (3 Month Program)</strong>
-            <br/>
-            <a target="_blank" href="http://www.mikeboring.com/wp-content/uploads/2020/08/certs1.jpg">
-              View Certificate
-            </a>
           </div>
         </>
       )
@@ -64,15 +57,11 @@ export default class Education extends Component {
       key: 4,
       content: (
         <>
-          <img src="http://www.mikeboring.com/wp-content/uploads/2020/08/certs3.jpg" alt="4" />
+          <img src={image4} alt="4" />
           <div className="carousel-description">
             <strong>Coursera Academy (3 Month Program)<br/>
             Frontend Bootstrap 4
             </strong>
-            <br/>
-            <a target="_blank" href="http://www.mikeboring.com/wp-content/uploads/2020/08/certs3.jpg">
-              View Certificate
-            </a>
           </div>
         </>
       )
@@ -81,15 +70,11 @@ export default class Education extends Component {
       key: 5,
       content: (
         <>
-          <img src="http://www.mikeboring.com/wp-content/uploads/2020/08/certs2.jpg" alt="5" />
+          <img src={image5} alt="5" />
           <div className="carousel-description">
             <strong>Coursera Academy (3 Month Program)<br/>
             Frontend Web Frameworks
             </strong>
-            <br/>
-            <a target="_blank" href="http://www.mikeboring.com/wp-content/uploads/2020/08/certs2.jpg">
-              View Certificate
-            </a>
           </div>
         </>
       )

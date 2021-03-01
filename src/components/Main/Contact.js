@@ -1,6 +1,9 @@
 import React from 'react'
 import './Contact.css'
 import { Button } from 'reactstrap';
+import image1 from "../../assets/images/linknedin-block.jpg"
+import image2 from "../../assets/images/gitlab-block.jpg"
+import image3 from "../../assets/images/github.jpg"
 
 const Contact = () => {
     return (
@@ -16,13 +19,13 @@ const Contact = () => {
                     </a>  
                 </div>
                 <div className="contactColumn">
-                    <a target="_blank" href="http://mikeboring.com/MB-Fullstack-Resume-2021.pdf">
+                    <a target="_blank" rel="noreferrer" href="http://mikeboring.com/MB-Fullstack-Resume-2021.pdf">
                         <Button color="none" type="button" className="btn btn-outline-light">VIEW RESUME</Button>
                     </a>
                 </div>
             </div>
             <div className="gitLinks">
-            <a href="https://www.linkedin.com/in/mike-boring-46579b195/" target="_blank"><img className="socialLink" src="http://www.mikeboring.com/wp-content/uploads/2021/02/linknedin-block.jpg" alt="" /></a>   <a href="https://gitlab.com/Shekinah999" target="_blank"><img className="socialLink" src="http://www.mikeboring.com/wp-content/uploads/2020/08/gitlab-block.jpg" alt="" /></a>   <a href="https://github.com/Mike-Boring" target="_blank"><img className="socialLink" src="http://www.mikeboring.com/wp-content/uploads/2020/08/github.jpg" alt=""/></a>
+            <a rel="noreferrer" href="https://www.linkedin.com/in/mike-boring-46579b195/" target="_blank"><img className="socialLink" src={image1} alt="1" /></a>   <a href="https://gitlab.com/Shekinah999" rel="noreferrer" target="_blank"><img className="socialLink" src={image2} alt="2" /></a>   <a href="https://github.com/Mike-Boring" rel="noreferrer" target="_blank"><img className="socialLink" src={image3} alt=""/></a>
             </div>
         </section>
     )

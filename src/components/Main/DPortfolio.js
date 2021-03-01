@@ -2,6 +2,19 @@ import React, { Component } from "react";
 import Carousel from "react-spring-3d-carousel";
 import "./Portfolio.css"
 import ScrollAnimation from 'react-animate-on-scroll';
+import image1 from "../../assets/images/portfolio-fe/1.jpg";
+import image2 from "../../assets/images/portfolio-fe/2.jpg";
+import image3 from "../../assets/images/portfolio-fe/13.jpg";
+import image4 from "../../assets/images/portfolio-fe/6.jpg";
+import image5 from "../../assets/images/portfolio-fe/7.jpg";
+import image6 from "../../assets/images/portfolio-fe/4-1.jpg";
+import image7 from "../../assets/images/portfolio-fe/8.jpg";
+import image8 from "../../assets/images/portfolio-fe/17.jpg";
+import image9 from "../../assets/images/portfolio-fe/12.jpg";
+import image10 from "../../assets/images/portfolio-fe/15.jpg";
+import image11 from "../../assets/images/portfolio-fe/5.jpg";
+import image12 from "../../assets/images/portfolio-fe/16.jpg";
+import image13 from "../../assets/images/portfolio-fe/3-1.jpg";
 
 export default class FSPortfolio extends Component {
   state = {
@@ -14,13 +27,10 @@ export default class FSPortfolio extends Component {
       key: 1,
       content: (
         <>
-          <img src="http://www.mikeboring.com/wp-content/uploads/2020/08/1.jpg" alt="1" />
+          <img src={image1} alt="1" />
           <div className="carousel-description">
             <strong>Protect Your Protectors</strong>
             <br/>T Shirt Design<br/>
-            <a target="_blank" href="http://www.mikeboring.com/wp-content/uploads/2020/08/1.jpg">
-              View Design
-            </a>
           </div>
         </>
       )},
@@ -28,13 +38,10 @@ export default class FSPortfolio extends Component {
       key: 2,
       content: (
       <>
-        <img src="http://www.mikeboring.com/wp-content/uploads/2020/08/2.jpg" alt="2" />
+        <img src={image2} alt="2" />
         <div className="carousel-description">
           <strong>Redline Kennelz</strong>
           <br/>Logo Design<br/>
-          <a target="_blank" href="http://www.mikeboring.com/wp-content/uploads/2020/08/2.jpg">
-            View Design
-          </a>
         </div>
       </>
       )},
@@ -42,13 +49,10 @@ export default class FSPortfolio extends Component {
       key: 3,
       content: (
         <>
-          <img src="http://www.mikeboring.com/wp-content/uploads/2020/08/13.jpg" alt="3" />
+          <img src={image3} alt="3" />
           <div className="carousel-description">
           <strong>Teller Strong</strong>
           <br/>T Shirt Design<br/>
-            <a target="_blank" href="http://www.mikeboring.com/wp-content/uploads/2020/08/13.jpg">
-              View Design
-            </a>
           </div>
         </>
       )},
@@ -56,13 +60,10 @@ export default class FSPortfolio extends Component {
       key: 4,
       content: (
         <>
-          <img src="http://www.mikeboring.com/wp-content/uploads/2020/08/6.jpg" alt="4" />
+          <img src={image4} alt="4" />
           <div className="carousel-description">
           <strong>Pineapple Republic</strong>
           <br/>Business Card Design<br/>
-            <a target="_blank" href="http://www.mikeboring.com/wp-content/uploads/2020/08/6.jpg">
-              View Design
-            </a>
           </div>
         </>
       )
@@ -71,13 +72,10 @@ export default class FSPortfolio extends Component {
       key: 5,
       content: (
         <>
-          <img src="http://www.mikeboring.com/wp-content/uploads/2020/08/7.jpg" alt="5" />
+          <img src={image5} alt="5" />
           <div className="carousel-description">
           <strong>Dove Creek</strong>
           <br/>Logo Design<br/>
-            <a target="_blank" href="http://www.mikeboring.com/wp-content/uploads/2020/08/7.jpg">
-              View Design
-            </a>
           </div>
         </>
       )
@@ -86,13 +84,10 @@ export default class FSPortfolio extends Component {
       key: 6,
       content: (
         <>
-          <img src="http://www.mikeboring.com/wp-content/uploads/2020/08/4-1.jpg" alt="6" />
+          <img src={image6} alt="6" />
           <div className="carousel-description">
             <strong>RSC Company</strong><br/>
             Postcard Design<br/>
-            <a target="_blank" href="http://www.mikeboring.com/wp-content/uploads/2020/08/4-1.jpg">
-              View Design
-            </a>
           </div>
         </>
       )
@@ -101,13 +96,10 @@ export default class FSPortfolio extends Component {
       key: 7,
       content: (
         <>
-          <img src="http://www.mikeboring.com/wp-content/uploads/2020/08/8.jpg" alt="7" />
+          <img src={image7} alt="7" />
           <div className="carousel-description">
           <strong>Caite's Fire Juice</strong>
           <br/>Logo Design<br/>
-            <a target="_blank" href="http://www.mikeboring.com/wp-content/uploads/2020/08/8.jpg">
-              View Application
-            </a>
           </div>
         </>
       )
@@ -116,13 +108,10 @@ export default class FSPortfolio extends Component {
       key: 8,
       content: (
         <>
-          <img src="http://www.mikeboring.com/wp-content/uploads/2020/08/17.jpg" alt="8" />
+          <img src={image8} alt="8" />
           <div className="carousel-description">
           <strong>Precision Extracts</strong>
           <br/>Z Fold Brochure Back<br/>
-            <a target="_blank" href="http://www.mikeboring.com/wp-content/uploads/2020/08/17.jpg">
-              View Design
-            </a>
           </div>
         </>
       )
@@ -131,13 +120,10 @@ export default class FSPortfolio extends Component {
       key: 9,
       content: (
         <>
-          <img src="http://www.mikeboring.com/wp-content/uploads/2020/08/12.jpg" alt="9" />
+          <img src={image9} alt="9" />
           <div className="carousel-description">
           <strong>Precision Extracts</strong>
           <br/>Z Fold Brochure Front<br/>
-            <a target="_blank" href="http://www.mikeboring.com/wp-content/uploads/2020/08/12.jpg">
-              View Design
-            </a>
           </div>
         </>
       )},
@@ -145,13 +131,10 @@ export default class FSPortfolio extends Component {
       key: 10,
       content: (
       <>
-        <img src="http://www.mikeboring.com/wp-content/uploads/2020/08/15.jpg" alt="10" />
+        <img src={image10} alt="10" />
         <div className="carousel-description">
         <strong>Teller County Law Enforcement</strong>
           <br/>T Shirt Design<br/>
-          <a target="_blank" href="http://www.mikeboring.com/wp-content/uploads/2020/08/15.jpg">
-            View Design
-          </a>
         </div>
       </>
       )},
@@ -159,13 +142,10 @@ export default class FSPortfolio extends Component {
       key: 11,
       content: (
         <>
-          <img src="http://www.mikeboring.com/wp-content/uploads/2020/08/5.jpg" alt="11" />
+          <img src={image11} alt="11" />
           <div className="carousel-description">
           <strong>RSC Company</strong>
           <br/>Logo Design<br/>
-            <a target="_blank" href="http://www.mikeboring.com/wp-content/uploads/2020/08/5.jpg">
-              View Design
-            </a>
           </div>
         </>
       )},
@@ -173,13 +153,10 @@ export default class FSPortfolio extends Component {
       key: 12,
       content: (
         <>
-          <img src="http://www.mikeboring.com/wp-content/uploads/2020/08/16.jpg" alt="12" />
+          <img src={image12} alt="12" />
           <div className="carousel-description">
           <strong>Precision Extracts</strong>
           <br/>Business Card Design<br/>
-            <a target="_blank" href="http://www.mikeboring.com/wp-content/uploads/2020/08/16.jpg">
-              View Design
-            </a>
           </div>
         </>
       )
@@ -188,13 +165,10 @@ export default class FSPortfolio extends Component {
       key: 13,
       content: (
         <>
-          <img src="http://www.mikeboring.com/wp-content/uploads/2020/08/3-1.jpg" alt="13" />
+          <img src={image13} alt="13" />
           <div className="carousel-description">
           <strong>Sell House Fast</strong>
           <br/>Post Card Design<br/>
-            <a target="_blank" href="http://www.mikeboring.com/wp-content/uploads/2020/08/3-1.jpg">
-              View Design
-            </a>
           </div>
         </>
       )
