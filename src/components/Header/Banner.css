@@ -3,6 +3,7 @@
   min-height: 300px;
   max-height: 800px;
   overflow: hidden;
+  clip-path: polygon(0 0, 100% 0, 100% 76%, 0% 100%);
 }
 .Video {
   width: 100%;

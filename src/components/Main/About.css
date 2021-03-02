@@ -5,6 +5,7 @@
   text-align: justify;
   margin: auto;
   text-align: center;
-  padding-top: 12%;
-  padding-bottom: 10%;
+  padding-top: 10%;
+  padding-bottom: 5%;
+  clip-path: polygon(0 28%, 100% 0, 100% 100%, 0% 100%);
 }

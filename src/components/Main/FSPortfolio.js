@@ -275,7 +275,7 @@ export default class FSPortfolio extends Component {
 
   render() {
     return (
-        <section className='portfolio' id="portfolioFS">
+        <section className='portfolioFS' id="portfolioFS">
               <h1>Full Stack Portfolio</h1>
               <h5>Django, React.js, Node.js, Javascript and Vue.js Applications and Small Business Websites.</h5> 
               <br/><br/>

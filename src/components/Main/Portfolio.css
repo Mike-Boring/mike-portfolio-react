@@ -1,4 +1,4 @@
-.portfolio {
+.portfolioFS {
   padding: 2rem;
   width: 100%;
   color: #fff;
@@ -7,7 +7,20 @@
   background-color: #000;
   text-align: center;
   padding-bottom: 8%;
+  padding-top: 15%;
+  clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+}
+.portfolioD {
+  padding: 2rem;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  margin: auto;
+  background-color: #000;
+  text-align: center;
+  padding-bottom: 12%;
   padding-top: 10%;
+  clip-path: polygon(0 0, 0 100%, 50% 94%, 100% 100%, 100% 0);
 }
 .carousel-description {
   position: absolute;
