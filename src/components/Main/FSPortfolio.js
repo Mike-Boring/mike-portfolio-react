@@ -18,6 +18,7 @@ import image13 from "../../assets/images/portfolio-fs/4a.jpg";
 import image14 from "../../assets/images/portfolio-fs/Maze.jpg";
 import image15 from "../../assets/images/portfolio-fs/TowerOfHanoi.jpg";
 import image16 from "../../assets/images/portfolio-fs/mbp-react.jpg";
+import image17 from "../../assets/images/portfolio-fs/11a.jpg";
 
 export default class FSPortfolio extends Component {
   state = {
@@ -258,6 +259,21 @@ export default class FSPortfolio extends Component {
             <br/>
             <a target="_blank" rel="noreferrer" href="https://github.com/Mike-Boring/mike-portfolio-react">
               View Repo
+            </a>
+          </div>
+        </>
+      )
+    },
+    {
+      key: 17,
+      content: (
+        <>
+          <img src={image17} alt="17" />
+          <div className="carousel-description">
+            <strong>LAMP Stack - CMS - Ecommerce</strong>
+            <br/>
+            <a target="_blank" rel="noreferrer" href="https://precisionextracts.com/">
+              View Website
             </a>
           </div>
         </>
