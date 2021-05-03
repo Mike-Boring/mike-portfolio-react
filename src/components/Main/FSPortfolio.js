@@ -37,9 +37,7 @@ export default class FSPortfolio extends Component {
             <br/>
             <a target="_blank" rel="noreferrer" href="https://github.com/Mike-Boring/micro-brew-for-you-capstone">
               View Github Repo
-            </a>
-            <br/>
-            <a target="_blank" rel="noreferrer" href="http://shekinah99913.pythonanywhere.com/">
+            </a> - <a target="_blank" rel="noreferrer" href="http://shekinah99913.pythonanywhere.com/">
               View Deployed App
             </a>
           </div>
@@ -53,8 +51,10 @@ export default class FSPortfolio extends Component {
         <div className="carousel-description">
           <strong>Vue.js Sample Survey Component</strong>
           <br/>
-          <a target="_blank" rel="noreferrer" href="https://mike-boring.github.io/vue-developer-sample/">
-            View Application
+          <a target="_blank" rel="noreferrer" href="https://github.com/Mike-Boring/vue-developer-sample">
+            View Github Repo
+          </a> - <a target="_blank" rel="noreferrer" href="https://mike-boring.github.io/vue-developer-sample/">
+            View Deployed Application
           </a>
         </div>
       </>
@@ -67,8 +67,10 @@ export default class FSPortfolio extends Component {
           <div className="carousel-description">
             <strong>REACT.js Application, REST API</strong>
             <br/>
-            <a target="_blank" rel="noreferrer" href="https://mike-boring.github.io/shoppies/">
-              View Application
+            <a target="_blank" rel="noreferrer" href="https://github.com/Mike-Boring/shoppies">
+              View Github Repo
+            </a> - <a target="_blank" rel="noreferrer" href="https://mike-boring.github.io/shoppies/">
+              View Deployed Application
             </a>
           </div>
         </>
@@ -97,10 +99,13 @@ export default class FSPortfolio extends Component {
         <>
           <img src={image5} alt="5" />
           <div className="carousel-description">
-            <strong>Javascript Application, REST API</strong>
+            <strong>React/Redux Application, REST API</strong>
             <br/>
+            <a target="_blank" rel="noreferrer" href="https://gitlab.com/Shekinah999/jeopardy-lab">
+              View Gitlab Repo
+            </a>
             <a target="_blank" rel="noreferrer" href="https://shekinah999.gitlab.io/jeopardy-lab/">
-              View Application
+              View Deployed Application
             </a>
           </div>
         </>
@@ -112,7 +117,7 @@ export default class FSPortfolio extends Component {
         <>
           <img src={image6} alt="6" />
           <div className="carousel-description">
-            <strong>LAMP Stack - CMS - MLS Search</strong>
+            <strong>Wordpress CMS - MLS Search</strong>
             <br/>
             <a target="_blank" rel="noreferrer" href="http://raynorrealty719.com/">
               View Website
@@ -127,10 +132,12 @@ export default class FSPortfolio extends Component {
         <>
           <img src={image7} alt="7" />
           <div className="carousel-description">
-            <strong>REACT, REDUX Application</strong>
+            <strong>React/Redux Application</strong>
             <br/>
-            <a target="_blank" rel="noreferrer" href="https://shekinah999.gitlab.io/assessment---kwitter-frontend/">
-              View Application
+            <a target="_blank" rel="noreferrer" href="https://gitlab.com/Shekinah999/assessment---kwitter-frontend">
+              View Gitlab Repo
+            </a> - <a target="_blank" rel="noreferrer" href="https://shekinah999.gitlab.io/assessment---kwitter-frontend/">
+              View Deployed Application
             </a>
           </div>
         </>
@@ -142,7 +149,7 @@ export default class FSPortfolio extends Component {
         <>
           <img src={image8} alt="8" />
           <div className="carousel-description">
-            <strong>LAMP Stack - CMS - Event Calendar</strong>
+            <strong>Wordpress CMS - Event Calendar</strong>
             <br/>
             <a target="_blank" rel="noreferrer" href="https://bendiscompany.com/">
               View Website
@@ -159,8 +166,10 @@ export default class FSPortfolio extends Component {
           <div className="carousel-description">
             <strong>REACT, REDUX Application</strong>
             <br/>
-            <a target="_blank" rel="noreferrer" href="https://shekinah999.gitlab.io/assessment-todo-app-part-3/Todos">
-              View Application
+            <a target="_blank" rel="noreferrer" href="https://gitlab.com/Shekinah999/assessment-todo-app-part-3">
+              View Gitlab Repo
+            </a> - <a target="_blank" rel="noreferrer" href="https://shekinah999.gitlab.io/assessment-todo-app-part-3/Todos">
+              View Deployed Application
             </a>
           </div>
         </>
@@ -171,7 +180,7 @@ export default class FSPortfolio extends Component {
       <>
         <img src={image10} alt="10" />
         <div className="carousel-description">
-          <strong>LAMP Stack - CMS - Event Calendar - Prayer Wall - Ecommerce</strong>
+          <strong>Wordpress CMS - Event Calendar - Prayer Wall - Ecommerce</strong>
           <br/>
           <a target="_blank" rel="noreferrer" href="http://remnantseedgospelministries.org/">
             View Website
@@ -259,7 +268,7 @@ export default class FSPortfolio extends Component {
         <>
           <img src={image16} alt="16" />
           <div className="carousel-description">
-            <strong>REACT Application</strong>
+            <strong>REACT Application - The one you are on currently.</strong>
             <br/>
             <a target="_blank" rel="noreferrer" href="https://github.com/Mike-Boring/mike-portfolio-react">
               View Repo
@@ -274,7 +283,7 @@ export default class FSPortfolio extends Component {
         <>
           <img src={image17} alt="17" />
           <div className="carousel-description">
-            <strong>LAMP Stack - CMS - Ecommerce</strong>
+            <strong>Wordpress CMS - Ecommerce</strong>
             <br/>
             <a target="_blank" rel="noreferrer" href="https://precisionextracts.com/">
               View Website
