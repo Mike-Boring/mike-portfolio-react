@@ -38,6 +38,10 @@ export default class FSPortfolio extends Component {
             <a target="_blank" rel="noreferrer" href="https://github.com/Mike-Boring/micro-brew-for-you-capstone">
               View Github Repo
             </a>
+            <br/>
+            <a target="_blank" rel="noreferrer" href="http://shekinah99913.pythonanywhere.com/">
+              View Deployed App
+            </a>
           </div>
         </>
       )},
