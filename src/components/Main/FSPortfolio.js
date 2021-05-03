@@ -9,7 +9,7 @@ import image4 from "../../assets/images/portfolio-fs/13a.jpg";
 import image5 from "../../assets/images/portfolio-fs/jeopardy.jpg";
 import image6 from "../../assets/images/portfolio-fs/5a.jpg";
 import image7 from "../../assets/images/portfolio-fs/qwitters.jpg";
-import image8 from "../../assets/images/portfolio-fs/1a.jpg";
+// import image8 from "../../assets/images/portfolio-fs/1a.jpg";
 import image9 from "../../assets/images/portfolio-fs/TodosList.jpg";
 import image10 from "../../assets/images/portfolio-fs/2a.jpg";
 import image11 from "../../assets/images/portfolio-fs/ConnectFour.jpg";
@@ -143,21 +143,21 @@ export default class FSPortfolio extends Component {
         </>
       )
     },
-    {
-      key: 8,
-      content: (
-        <>
-          <img src={image8} alt="8" />
-          <div className="carousel-description">
-            <strong>Wordpress CMS - Event Calendar</strong>
-            <br/>
-            <a target="_blank" rel="noreferrer" href="https://bendiscompany.com/">
-              View Website
-            </a>
-          </div>
-        </>
-      )
-    },
+    // {
+    //   key: 8,
+    //   content: (
+    //     <>
+    //       <img src={image8} alt="8" />
+    //       <div className="carousel-description">
+    //         <strong>Wordpress CMS - Event Calendar</strong>
+    //         <br/>
+    //         <a target="_blank" rel="noreferrer" href="https://bendiscompany.com/">
+    //           View Website
+    //         </a>
+    //       </div>
+    //     </>
+    //   )
+    // },
     {
       key: 9,
       content: (
