@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mike-portfolio-react/static/css/main.ed3c0aff.chunk.css",
-    "main.js": "/mike-portfolio-react/static/js/main.f859f6d9.chunk.js",
-    "main.js.map": "/mike-portfolio-react/static/js/main.f859f6d9.chunk.js.map",
+    "main.js": "/mike-portfolio-react/static/js/main.df2abfba.chunk.js",
+    "main.js.map": "/mike-portfolio-react/static/js/main.df2abfba.chunk.js.map",
     "runtime-main.js": "/mike-portfolio-react/static/js/runtime-main.cb9ac21f.js",
     "runtime-main.js.map": "/mike-portfolio-react/static/js/runtime-main.cb9ac21f.js.map",
     "static/css/2.150d169a.chunk.css": "/mike-portfolio-react/static/css/2.150d169a.chunk.css",
@@ -21,7 +21,6 @@
     "static/media/15.71e9e5d3.jpg": "/mike-portfolio-react/static/media/15.71e9e5d3.jpg",
     "static/media/16.c561c3c8.jpg": "/mike-portfolio-react/static/media/16.c561c3c8.jpg",
     "static/media/17.dcb7cd95.jpg": "/mike-portfolio-react/static/media/17.dcb7cd95.jpg",
-    "static/media/1a.7d7c6a21.jpg": "/mike-portfolio-react/static/media/1a.7d7c6a21.jpg",
     "static/media/2.456f1aa7.jpg": "/mike-portfolio-react/static/media/2.456f1aa7.jpg",
     "static/media/2a.e79684ef.jpg": "/mike-portfolio-react/static/media/2a.e79684ef.jpg",
     "static/media/3-1.de045211.jpg": "/mike-portfolio-react/static/media/3-1.de045211.jpg",
@@ -58,6 +57,6 @@
     "static/css/2.150d169a.chunk.css",
     "static/js/2.562c5f73.chunk.js",
     "static/css/main.ed3c0aff.chunk.css",
-    "static/js/main.f859f6d9.chunk.js"
+    "static/js/main.df2abfba.chunk.js"
   ]
 }
