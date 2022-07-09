@@ -7,7 +7,7 @@ import image2 from "../../assets/images/portfolio-fs/VueSample.jpg";
 import image3 from "../../assets/images/portfolio-fs/shoppies.jpg";
 import image4 from "../../assets/images/portfolio-fs/13a.jpg";
 import image5 from "../../assets/images/portfolio-fs/jeopardy.jpg";
-import image6 from "../../assets/images/portfolio-fs/5a.jpg";
+import image6 from "../../assets/images/portfolio-fs/heartland.jpg";
 import image7 from "../../assets/images/portfolio-fs/qwitters.jpg";
 import image8 from "../../assets/images/portfolio-fs/1a.jpg";
 import image9 from "../../assets/images/portfolio-fs/TodosList.jpg";
@@ -103,7 +103,7 @@ export default class FSPortfolio extends Component {
             <br/>
             <a target="_blank" rel="noreferrer" href="https://gitlab.com/Shekinah999/jeopardy-lab">
               View Gitlab Repo
-            </a>
+            </a> - 
             <a target="_blank" rel="noreferrer" href="https://shekinah999.gitlab.io/jeopardy-lab/">
               View Deployed Application
             </a>
@@ -117,9 +117,9 @@ export default class FSPortfolio extends Component {
         <>
           <img src={image6} alt="6" />
           <div className="carousel-description">
-            <strong>Wordpress CMS - MLS Search</strong>
+            <strong>Wordpress CMS</strong>
             <br/>
-            <a target="_blank" rel="noreferrer" href="http://raynorrealty719.com/">
+            <a target="_blank" rel="noreferrer" href="https://heartlandcannabisproducts.com/">
               View Website
             </a>
           </div>
