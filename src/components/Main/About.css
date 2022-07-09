@@ -1,11 +1,11 @@
 .about {
   padding: 2rem;
-  width: 70rem;
+  width: 100%;
   color: #444;
   text-align: justify;
   margin: auto;
   text-align: center;
-  padding-top: 10%;
+  padding-top: 12vh;
   padding-bottom: 5%;
   clip-path: polygon(0 28%, 100% 0, 100% 100%, 0% 100%);
 }

@@ -11,7 +11,7 @@ import Testimonials from './components/Main/Testimonials.js'
 import AnimatedBanner from './components/Header/Banner.js'
 import Contact from './components/Main/Contact.js'
 
-
+/*
 function detec() { 
     if (navigator.userAgent.match(/Android/i) 
         || navigator.userAgent.match(/webOS/i) 
@@ -25,14 +25,14 @@ function detec() {
         return
     } 
 }
-
+*/
 function App() {
-    detec()
+    //detec()
     const { isSticky1, element1 } = useSticky1()
     return (
         <>
             <Navbar sticky1={isSticky1} />
-            <main>
+            <main className="main-wrapper">
               <AnimatedBanner element1={element1} />
               <About />
               <FSPortfolio />

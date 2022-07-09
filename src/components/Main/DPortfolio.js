@@ -185,7 +185,7 @@ export default class FSPortfolio extends Component {
 
   render() {
     return (
-        <section className='portfolioD'>
+        <section className='portfolioD' id="portfolioD">
             <h1>Graphic Design Portfolio</h1>
             <h5>Graphic Design, Logos, Brochures, Flyers etc...</h5>
             <br/><br/>

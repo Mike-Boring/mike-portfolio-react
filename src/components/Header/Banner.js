@@ -9,7 +9,7 @@ const AnimatedBanner = ({element1}) => {
     const videoSource = bgVideo
     return (
         <>
-            <div className="Container" >
+            <div className="container-banner" >
                 <video autoPlay="autoplay" loop="loop" muted className="Video" >
                     <source src={videoSource} type="video/mp4" />
                     Your browser does not support the video tag.
@@ -17,7 +17,7 @@ const AnimatedBanner = ({element1}) => {
 
                 <section className="banner-content" ref={element1}>
                     <BannerAnimText />
-                    <h1>Michael Boring</h1>
+                    <h1 className="my-name">Michael Boring</h1>
                     <h4>Full Stack Software Engineer</h4>
                     <br/>
                     <AnchorLink href='#about'><Button color="none" type="button" className="btn btn-outline-light">VIEW DETAILS</Button></AnchorLink>

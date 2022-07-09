@@ -10,4 +10,13 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #fff;
   font-size: 1rem;
+  display: flex;
+}
+main.main-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  width: 100%;
 }

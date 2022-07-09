@@ -1,5 +1,5 @@
 .portfolioFS {
-  padding: 2rem;
+  padding: 14vh;
   width: 100%;
   color: #fff;
   text-align: center;
@@ -7,11 +7,11 @@
   background-color: #000;
   text-align: center;
   padding-bottom: 8%;
-  padding-top: 15%;
+  padding-top: 240px;
   clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
 }
 .portfolioD {
-  padding: 2rem;
+  padding: 14vh;
   width: 100%;
   color: #fff;
   text-align: center;
@@ -19,7 +19,7 @@
   background-color: #000;
   text-align: center;
   padding-bottom: 12%;
-  padding-top: 10%;
+  padding-top: 75px;
   clip-path: polygon(0 0, 0 100%, 50% 94%, 100% 100%, 100% 0);
 }
 .carousel-description {
@@ -39,4 +39,84 @@
 .carousel-description a:hover {
   color: lightgrey;
   text-decoration: none;
+}
+#portfolioFS .css-1fzpoyk,
+#portfolioD .css-1fzpoyk {
+  position: absolute;
+  height: 90%;
+  top: 50%;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  transform-origin: 50% 50%;
+}
+
+#portfolioFS .css-1qzevvg,
+#portfolioD .css-1qzevvg {
+  position: relative;
+  display: flex;
+  height: 40px;
+  margin: 1rem auto 0px;
+  width: 20%;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  top: -170px;
+  left: 0%;
+  transform: translate(-50%, 0);
+}
+
+@media only screen and (max-width: 1100px) {
+  #portfolioFS .css-1fzpoyk,
+  #portfolioD .css-1fzpoyk {
+    position: absolute;
+    height: 60%;
+    top: 50%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    transform-origin: 50% 50%;
+  }
+  .carousel-description {
+    font-size: 2vh;
+  }
+}
+
+@media only screen and (max-width: 790px) {
+  #portfolioFS .css-1fzpoyk,
+  #portfolioD .css-1fzpoyk {
+    position: absolute;
+    height: 52%;
+    top: 50%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    transform-origin: 50% 50%;
+  }
+  .carousel-description {
+    font-size: 2vh;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #portfolioFS .css-1fzpoyk,
+  #portfolioD .css-1fzpoyk {
+    position: absolute;
+    height: 45%;
+    top: 20%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    transform-origin: 50% 50%;
+  }
+  .carousel-description {
+    font-size: 1.5vh;
+  }
 }

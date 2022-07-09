@@ -23,7 +23,7 @@ const Contact = () => {
             </div>
             <div className="contactColumn">
                 <ScrollAnimation animateIn="animate__fadeInRight">
-                    <a target="_blank" rel="noreferrer" href="https://mikeboring.com/MB-Fullstack-Resume-2021.pdf">
+                    <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1j0Qfw8HqQMLHuwhmhkaS3VHSRKWp8AGr/view?usp=sharing">
                         <Button color="none" type="button" className="btn btn-outline-light">VIEW RESUME</Button>
                     </a>
                 </ScrollAnimation>

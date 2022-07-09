@@ -91,7 +91,7 @@ export default class Education extends Component {
 
   render() {
     return (
-        <section className='education'>
+        <section className='education' id="education">
             <h1>Education</h1> 
             <br/><br/>
             <ScrollAnimation animateIn="animate__zoomIn">           
