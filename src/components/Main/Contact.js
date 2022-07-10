@@ -15,18 +15,18 @@ const Contact = () => {
             <br/>
             <div className="uniqueContact">
             <div className="contactColumn">
-                <ScrollAnimation animateIn="animate__fadeInLeft">
-                    <a href="mailto:shekinah999@msn.com">
-                        <Button color="none" type="button" className="btn btn-outline-light">EMAIL ME</Button>
-                    </a>  
-                </ScrollAnimation>
+                
+                <a href="mailto:shekinah999@msn.com">
+                    <Button color="none" type="button" className="btn btn-outline-light">EMAIL ME</Button>
+                </a>  
+                
             </div>
             <div className="contactColumn">
-                <ScrollAnimation animateIn="animate__fadeInRight">
-                    <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1j0Qfw8HqQMLHuwhmhkaS3VHSRKWp8AGr/view?usp=sharing">
-                        <Button color="none" type="button" className="btn btn-outline-light">VIEW RESUME</Button>
-                    </a>
-                </ScrollAnimation>
+                
+                <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1j0Qfw8HqQMLHuwhmhkaS3VHSRKWp8AGr/view?usp=sharing">
+                    <Button color="none" type="button" className="btn btn-outline-light">VIEW RESUME</Button>
+                </a>
+                
             </div>
             </div>
             <div className="gitLinks">
