@@ -1,7 +1,6 @@
 import React from 'react'
 import './Contact.css'
 import { Button } from 'reactstrap';
-import ScrollAnimation from 'react-animate-on-scroll';
 import image1 from "../../assets/images/linknedin-block.jpg"
 import image2 from "../../assets/images/gitlab-block.jpg"
 import image3 from "../../assets/images/github.jpg"
