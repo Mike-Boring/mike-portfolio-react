@@ -11,7 +11,7 @@ import Testimonials from './components/Main/Testimonials.js'
 import AnimatedBanner from './components/Header/Banner.js'
 import Contact from './components/Main/Contact.js'
 
-/*
+
 function detec() { 
     if (navigator.userAgent.match(/Android/i) 
         || navigator.userAgent.match(/webOS/i) 
@@ -20,14 +20,14 @@ function detec() {
         || navigator.userAgent.match(/iPod/i) 
         || navigator.userAgent.match(/BlackBerry/i) 
         || navigator.userAgent.match(/Windows Phone/i)) { 
-        window.location = "http://mikeboring.com" 
+        window.location = "https://mike-boring.github.io/mike-portfolio-react/" 
     } else { 
         return
     } 
 }
-*/
+
 function App() {
-    //detec()
+    detec()
     const { isSticky1, element1 } = useSticky1()
     return (
         <>
