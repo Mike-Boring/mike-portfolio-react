@@ -30,9 +30,9 @@ const Contact = () => {
             </div>
             </div>
             <div className="gitLinks">
-                <ScrollAnimation animateIn="animate__fadeInUp">
-                    <a rel="noreferrer" href="https://www.linkedin.com/in/mike-boring-46579b195/" target="_blank"><img className="socialLink" src={image1} alt="1" /></a>   <a href="https://gitlab.com/Shekinah999" rel="noreferrer" target="_blank"><img className="socialLink" src={image2} alt="2" /></a>   <a href="https://github.com/Mike-Boring" rel="noreferrer" target="_blank"><img className="socialLink" src={image3} alt=""/></a>
-                </ScrollAnimation>
+                
+                <a rel="noreferrer" href="https://www.linkedin.com/in/mike-boring-46579b195/" target="_blank"><img className="socialLink" src={image1} alt="1" /></a>   <a href="https://gitlab.com/Shekinah999" rel="noreferrer" target="_blank"><img className="socialLink" src={image2} alt="2" /></a>   <a href="https://github.com/Mike-Boring" rel="noreferrer" target="_blank"><img className="socialLink" src={image3} alt=""/></a>
+                
             </div>
         </section>
     )
