@@ -34,3 +34,59 @@
     background: #fff;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .counterColumn h3 {
+    font-size: 5vw;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .skillbar-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px;
+    font-weight: bold;
+    font-size: 11px;
+    color: #fff;
+    background: #d35400;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    height: inherit;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .skillbar-percent {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-size: 11px;
+    line-height: inherit;
+    color: #fff;
+    color: rgba(0, 0, 0, 0.4);
+    display: none;
+  }
+  .skillbar-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90px;
+    font-weight: bold;
+    font-size: 13px;
+    color: #fff;
+    background: #d35400;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    height: inherit;
+  }
+}

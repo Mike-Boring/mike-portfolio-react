@@ -120,3 +120,51 @@
     font-size: 1.5vh;
   }
 }
+
+@media only screen and (max-width: 500px) {
+  #portfolioFS .css-1qzevvg,
+  #portfolioD .css-1qzevvg {
+    position: relative;
+    display: flex;
+    height: 40px;
+    margin: 1rem auto 0px;
+    width: 20%;
+    justify-content: space-between;
+    top: -170px;
+    left: 0%;
+    transform: translate(-100%, 0);
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #portfolioFS .css-1fzpoyk,
+  #portfolioD .css-1fzpoyk {
+    position: absolute;
+    height: 30%;
+    top: 20%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    transform-origin: 50% 50%;
+  }
+  .carousel-description {
+    font-size: 1.5vh;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  #portfolioFS .css-1qzevvg,
+  #portfolioD .css-1qzevvg {
+    position: relative;
+    display: flex;
+    height: 40px;
+    margin: 1rem auto 0px;
+    width: 20%;
+    justify-content: space-between;
+    top: -170px;
+    left: 0%;
+    transform: translate(-200%, 0);
+  }
+}

@@ -9,3 +9,9 @@
   padding-bottom: 5%;
   clip-path: polygon(0 28%, 100% 0, 100% 100%, 0% 100%);
 }
+
+@media only screen and (max-width: 400px) {
+  .about {
+    padding-top: 16vh;
+  }
+}

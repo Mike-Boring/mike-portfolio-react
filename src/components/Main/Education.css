@@ -103,3 +103,17 @@
     font-size: 1.5vh;
   }
 }
+
+@media only screen and (max-width: 400px) {
+  #education .css-1fzpoyk {
+    position: absolute;
+    height: 28%;
+    top: 20%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    transform-origin: 50% 50%;
+  }
+}

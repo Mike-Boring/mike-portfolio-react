@@ -2,3 +2,9 @@
   text-align: center;
   line-height: 11rem;
 }
+@media only screen and (max-width: 400px) {
+  .anim-text {
+    text-align: center;
+    line-height: 6rem;
+  }
+}

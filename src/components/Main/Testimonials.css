@@ -24,3 +24,12 @@
   justify-content: center;
   color: grey;
 }
+
+@media only screen and (max-width: 400px) {
+  .testimonialsColumn h3 {
+    font-size: 4vw;
+  }
+  .testimonialsColumn p {
+    font-size: 3vw;
+  }
+}

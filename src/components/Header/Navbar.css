@@ -142,3 +142,20 @@
     text-transform: capitalize;
   }
 }
+
+@media only screen and (max-width: 350px) {
+  .navbar--link-item {
+    margin: 0.4rem 1rem 0 0;
+    padding: 0 0.3rem;
+    cursor: pointer;
+    font-size: 3vw;
+    text-transform: capitalize;
+  }
+  .navbar--link-item-sticky {
+    margin: 0.4rem 1rem 0 0;
+    padding: 0 0.3rem;
+    cursor: pointer;
+    font-size: 3vw;
+    text-transform: capitalize;
+  }
+}
