@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mike-portfolio-react/static/css/main.4f8fa192.chunk.css",
-    "main.js": "/mike-portfolio-react/static/js/main.919fbea6.chunk.js",
-    "main.js.map": "/mike-portfolio-react/static/js/main.919fbea6.chunk.js.map",
+    "main.js": "/mike-portfolio-react/static/js/main.702da5a0.chunk.js",
+    "main.js.map": "/mike-portfolio-react/static/js/main.702da5a0.chunk.js.map",
     "runtime-main.js": "/mike-portfolio-react/static/js/runtime-main.cb9ac21f.js",
     "runtime-main.js.map": "/mike-portfolio-react/static/js/runtime-main.cb9ac21f.js.map",
     "static/css/2.150d169a.chunk.css": "/mike-portfolio-react/static/css/2.150d169a.chunk.css",
@@ -43,13 +43,17 @@
     "static/media/certs3.0d0c112b.jpg": "/mike-portfolio-react/static/media/certs3.0d0c112b.jpg",
     "static/media/certs4.442349b7.jpg": "/mike-portfolio-react/static/media/certs4.442349b7.jpg",
     "static/media/certs5.c0ba8b5c.png": "/mike-portfolio-react/static/media/certs5.c0ba8b5c.png",
+    "static/media/gcs.a56a8d71.jpg": "/mike-portfolio-react/static/media/gcs.a56a8d71.jpg",
     "static/media/github.9bb5525c.jpg": "/mike-portfolio-react/static/media/github.9bb5525c.jpg",
     "static/media/gitlab-block.f6e880c3.jpg": "/mike-portfolio-react/static/media/gitlab-block.f6e880c3.jpg",
     "static/media/heartland.fd904762.jpg": "/mike-portfolio-react/static/media/heartland.fd904762.jpg",
     "static/media/jeopardy.b4b58102.jpg": "/mike-portfolio-react/static/media/jeopardy.b4b58102.jpg",
+    "static/media/kearley.f567bb40.jpg": "/mike-portfolio-react/static/media/kearley.f567bb40.jpg",
     "static/media/linknedin-block.eb2cd84d.jpg": "/mike-portfolio-react/static/media/linknedin-block.eb2cd84d.jpg",
+    "static/media/lpc.680c398e.jpg": "/mike-portfolio-react/static/media/lpc.680c398e.jpg",
     "static/media/mb-icon3.6f8e7072.png": "/mike-portfolio-react/static/media/mb-icon3.6f8e7072.png",
     "static/media/mbp-react.d74a8bdb.jpg": "/mike-portfolio-react/static/media/mbp-react.d74a8bdb.jpg",
+    "static/media/personal-prop.f38d6a23.jpg": "/mike-portfolio-react/static/media/personal-prop.f38d6a23.jpg",
     "static/media/qwitters.708e8d17.jpg": "/mike-portfolio-react/static/media/qwitters.708e8d17.jpg",
     "static/media/shoppies.603c8154.jpg": "/mike-portfolio-react/static/media/shoppies.603c8154.jpg"
   },
@@ -58,6 +62,6 @@
     "static/css/2.150d169a.chunk.css",
     "static/js/2.92a97928.chunk.js",
     "static/css/main.4f8fa192.chunk.css",
-    "static/js/main.919fbea6.chunk.js"
+    "static/js/main.702da5a0.chunk.js"
   ]
 }
