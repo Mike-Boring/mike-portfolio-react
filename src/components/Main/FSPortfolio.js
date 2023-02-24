@@ -19,6 +19,10 @@ import image14 from "../../assets/images/portfolio-fs/Maze.jpg";
 import image15 from "../../assets/images/portfolio-fs/TowerOfHanoi.jpg";
 import image16 from "../../assets/images/portfolio-fs/mbp-react.jpg";
 import image17 from "../../assets/images/portfolio-fs/11a.jpg";
+import image18 from "../../assets/images/portfolio-fs/lpc.jpg";
+import image19 from "../../assets/images/portfolio-fs/gcs.jpg";
+import image20 from "../../assets/images/portfolio-fs/personal-prop.jpg";
+import image21 from "../../assets/images/portfolio-fs/kearley.jpg";
 
 export default class FSPortfolio extends Component {
   state = {
@@ -286,6 +290,66 @@ export default class FSPortfolio extends Component {
             <strong>Wordpress CMS - Ecommerce</strong>
             <br/>
             <a target="_blank" rel="noreferrer" href="https://precisionextracts.com/">
+              View Website
+            </a>
+          </div>
+        </>
+      )
+    },
+    {
+      key: 18,
+      content: (
+        <>
+          <img src={image18} alt="18" />
+          <div className="carousel-description">
+            <strong>Wordpress CMS - MLS Search Integration</strong>
+            <br/>
+            <a target="_blank" rel="noreferrer" href="https://legacypropertiesofcolorado.com/">
+              View Website
+            </a>
+          </div>
+        </>
+      )
+    },
+    {
+      key: 19,
+      content: (
+        <>
+          <img src={image19} alt="19" />
+          <div className="carousel-description">
+            <strong>Wordpress CMS</strong>
+            <br/>
+            <a target="_blank" rel="noreferrer" href="https://gcscontractingservices.com/">
+              View Website
+            </a>
+          </div>
+        </>
+      )
+    },
+    {
+      key: 20,
+      content: (
+        <>
+          <img src={image20} alt="20" />
+          <div className="carousel-description">
+            <strong>Wordpress CMS</strong>
+            <br/>
+            <a target="_blank" rel="noreferrer" href="https://personalpropertyappraisers.us/">
+              View Website
+            </a>
+          </div>
+        </>
+      )
+    },
+    {
+      key: 21,
+      content: (
+        <>
+          <img src={image21} alt="21" />
+          <div className="carousel-description">
+            <strong>Wordpress CMS - Featured Properties</strong>
+            <br/>
+            <a target="_blank" rel="noreferrer" href="https://johnkearley.realtor/">
               View Website
             </a>
           </div>

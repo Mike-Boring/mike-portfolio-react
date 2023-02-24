@@ -22,7 +22,7 @@ const Contact = () => {
             </div>
             <div className="contactColumn">
                 
-                <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1j0Qfw8HqQMLHuwhmhkaS3VHSRKWp8AGr/view?usp=sharing">
+                <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/19_rDBICsqdFaIq7eqR_GfoJ8K2BkVRcD/view?usp=share_link">
                     <Button color="none" type="button" className="btn btn-outline-light">VIEW RESUME</Button>
                 </a>
                 
