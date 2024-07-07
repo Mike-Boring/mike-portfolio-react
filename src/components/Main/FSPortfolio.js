@@ -9,19 +9,19 @@ import image4 from "../../assets/images/portfolio-fs/13a.jpg";
 import image5 from "../../assets/images/portfolio-fs/jeopardy.jpg";
 import image6 from "../../assets/images/portfolio-fs/heartland.jpg";
 import image7 from "../../assets/images/portfolio-fs/qwitters.jpg";
-import image8 from "../../assets/images/portfolio-fs/1a.jpg";
+import image8 from "../../assets/images/portfolio-fs/lcr.jpg";
 import image9 from "../../assets/images/portfolio-fs/TodosList.jpg";
 import image10 from "../../assets/images/portfolio-fs/2a.jpg";
 import image11 from "../../assets/images/portfolio-fs/ConnectFour.jpg";
 import image12 from "../../assets/images/portfolio-fs/RockPaperScissors.jpg";
-import image13 from "../../assets/images/portfolio-fs/4a.jpg";
+import image13 from "../../assets/images/portfolio-fs/xclusive.jpg";
 import image14 from "../../assets/images/portfolio-fs/Maze.jpg";
 import image15 from "../../assets/images/portfolio-fs/TowerOfHanoi.jpg";
 import image16 from "../../assets/images/portfolio-fs/mbp-react.jpg";
 import image17 from "../../assets/images/portfolio-fs/11a.jpg";
 import image18 from "../../assets/images/portfolio-fs/lpc.jpg";
-import image19 from "../../assets/images/portfolio-fs/gcs.jpg";
-import image20 from "../../assets/images/portfolio-fs/personal-prop.jpg";
+import image19 from "../../assets/images/portfolio-fs/ostara.jpg";
+import image20 from "../../assets/images/portfolio-fs/root66.jpg";
 import image21 from "../../assets/images/portfolio-fs/kearley.jpg";
 
 export default class FSPortfolio extends Component {
@@ -153,9 +153,9 @@ export default class FSPortfolio extends Component {
         <>
           <img src={image8} alt="8" />
           <div className="carousel-description">
-            <strong>Wordpress CMS - Event Calendar</strong>
+            <strong>Wordpress CMS - Custom Theme</strong>
             <br/>
-            <a target="_blank" rel="noreferrer" href="https://bendiscompany.com/">
+            <a target="_blank" rel="noreferrer" href="https://lcrhomeloans.com/">
               View Website
             </a>
           </div>
@@ -227,9 +227,9 @@ export default class FSPortfolio extends Component {
         <>
           <img src={image13} alt="13" />
           <div className="carousel-description">
-            <strong>LAMP Stack - CMS - Ecommerce - Reservations</strong>
+            <strong>wordpress CMS - Custom Theme, Custom Javascript Components</strong>
             <br/>
-            <a target="_blank" rel="noreferrer" href="https://greywolfresort.com/">
+            <a target="_blank" rel="noreferrer" href="https://xclusivecannabis.com/">
               View Website
             </a>
           </div>
@@ -317,9 +317,9 @@ export default class FSPortfolio extends Component {
         <>
           <img src={image19} alt="19" />
           <div className="carousel-description">
-            <strong>Wordpress CMS</strong>
+            <strong>Custom Javascript Product Catalog and Filtering System - Javascript, PHP</strong>
             <br/>
-            <a target="_blank" rel="noreferrer" href="https://gcscontractingservices.com/">
+            <a target="_blank" rel="noreferrer" href="https://ostaracannabis.com/product/">
               View Website
             </a>
           </div>
@@ -332,9 +332,9 @@ export default class FSPortfolio extends Component {
         <>
           <img src={image20} alt="20" />
           <div className="carousel-description">
-            <strong>Wordpress CMS</strong>
+            <strong>Custom Google Maps Location Component and Med/Rec Toggle Component - Javascript, PHP</strong>
             <br/>
-            <a target="_blank" rel="noreferrer" href="https://personalpropertyappraisers.us/">
+            <a target="_blank" rel="noreferrer" href="https://root66cannabis.com/locations/">
               View Website
             </a>
           </div>
