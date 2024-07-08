@@ -47,6 +47,21 @@ export default class FSPortfolio extends Component {
           </div>
         </>
       )},
+      {
+        key: 19,
+        content: (
+          <>
+            <img src={image19} alt="19" />
+            <div className="carousel-description">
+              <strong>Custom Javascript Product Catalog and Filtering System - Javascript, PHP</strong>
+              <br/>
+              <a target="_blank" rel="noreferrer" href="https://ostaracannabis.com/product/">
+                View Website
+              </a>
+            </div>
+          </>
+        )
+      },
     {
       key: 2,
       content: (
@@ -179,19 +194,20 @@ export default class FSPortfolio extends Component {
         </>
       )},
     {
-      key: 10,
+      key: 13,
       content: (
-      <>
-        <img src={image10} alt="10" />
-        <div className="carousel-description">
-          <strong>Wordpress CMS - Event Calendar - Prayer Wall - Ecommerce</strong>
-          <br/>
-          <a target="_blank" rel="noreferrer" href="http://remnantseedgospelministries.org/">
-            View Website
-          </a>
-        </div>
-      </>
-      )},
+        <>
+          <img src={image13} alt="13" />
+          <div className="carousel-description">
+            <strong>wordpress CMS - Custom Theme, Custom Javascript Components</strong>
+            <br/>
+            <a target="_blank" rel="noreferrer" href="https://xclusivecannabis.com/">
+              View Website
+            </a>
+          </div>
+        </>
+      )
+    },
     {
       key: 11,
       content: (
@@ -222,20 +238,19 @@ export default class FSPortfolio extends Component {
       )
     },
     {
-      key: 13,
+      key: 10,
       content: (
-        <>
-          <img src={image13} alt="13" />
-          <div className="carousel-description">
-            <strong>wordpress CMS - Custom Theme, Custom Javascript Components</strong>
-            <br/>
-            <a target="_blank" rel="noreferrer" href="https://xclusivecannabis.com/">
-              View Website
-            </a>
-          </div>
-        </>
-      )
-    },
+      <>
+        <img src={image10} alt="10" />
+        <div className="carousel-description">
+          <strong>Wordpress CMS - Event Calendar - Prayer Wall - Ecommerce</strong>
+          <br/>
+          <a target="_blank" rel="noreferrer" href="http://remnantseedgospelministries.org/">
+            View Website
+          </a>
+        </div>
+      </>
+      )},
     {
       key: 14,
       content: (
@@ -311,21 +326,7 @@ export default class FSPortfolio extends Component {
         </>
       )
     },
-    {
-      key: 19,
-      content: (
-        <>
-          <img src={image19} alt="19" />
-          <div className="carousel-description">
-            <strong>Custom Javascript Product Catalog and Filtering System - Javascript, PHP</strong>
-            <br/>
-            <a target="_blank" rel="noreferrer" href="https://ostaracannabis.com/product/">
-              View Website
-            </a>
-          </div>
-        </>
-      )
-    },
+    
     {
       key: 20,
       content: (
