@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mike-portfolio-react/static/css/main.4f8fa192.chunk.css",
-    "main.js": "/mike-portfolio-react/static/js/main.02f5f324.chunk.js",
-    "main.js.map": "/mike-portfolio-react/static/js/main.02f5f324.chunk.js.map",
+    "main.js": "/mike-portfolio-react/static/js/main.ce5e859a.chunk.js",
+    "main.js.map": "/mike-portfolio-react/static/js/main.ce5e859a.chunk.js.map",
     "runtime-main.js": "/mike-portfolio-react/static/js/runtime-main.cb9ac21f.js",
     "runtime-main.js.map": "/mike-portfolio-react/static/js/runtime-main.cb9ac21f.js.map",
     "static/css/2.1dd1e755.chunk.css": "/mike-portfolio-react/static/css/2.1dd1e755.chunk.css",
@@ -41,10 +41,10 @@
     "static/media/certs3.0d0c112b.jpg": "/mike-portfolio-react/static/media/certs3.0d0c112b.jpg",
     "static/media/certs4.442349b7.jpg": "/mike-portfolio-react/static/media/certs4.442349b7.jpg",
     "static/media/certs5.c0ba8b5c.png": "/mike-portfolio-react/static/media/certs5.c0ba8b5c.png",
+    "static/media/cityhope.f7572f0e.jpg": "/mike-portfolio-react/static/media/cityhope.f7572f0e.jpg",
     "static/media/github.9bb5525c.jpg": "/mike-portfolio-react/static/media/github.9bb5525c.jpg",
     "static/media/gitlab-block.f6e880c3.jpg": "/mike-portfolio-react/static/media/gitlab-block.f6e880c3.jpg",
     "static/media/heartland.fd904762.jpg": "/mike-portfolio-react/static/media/heartland.fd904762.jpg",
-    "static/media/jeopardy.b4b58102.jpg": "/mike-portfolio-react/static/media/jeopardy.b4b58102.jpg",
     "static/media/kearley.f567bb40.jpg": "/mike-portfolio-react/static/media/kearley.f567bb40.jpg",
     "static/media/lcr.3ac5f2c8.jpg": "/mike-portfolio-react/static/media/lcr.3ac5f2c8.jpg",
     "static/media/linknedin-block.eb2cd84d.jpg": "/mike-portfolio-react/static/media/linknedin-block.eb2cd84d.jpg",
@@ -62,6 +62,6 @@
     "static/css/2.1dd1e755.chunk.css",
     "static/js/2.92a97928.chunk.js",
     "static/css/main.4f8fa192.chunk.css",
-    "static/js/main.02f5f324.chunk.js"
+    "static/js/main.ce5e859a.chunk.js"
   ]
 }
