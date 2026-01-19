@@ -3,7 +3,7 @@ import Carousel from "react-spring-3d-carousel";
 import "./Portfolio.css"
 import ScrollAnimation from 'react-animate-on-scroll';
 import image1 from "../../assets/images/portfolio-fs/12a.jpg";
-import image2 from "../../assets/images/portfolio-fs/VueSample.jpg";
+import image2 from "../../assets/images/portfolio-fs/sfields.png";
 import image3 from "../../assets/images/portfolio-fs/shoppies.jpg";
 import image4 from "../../assets/images/portfolio-fs/13a.jpg";
 import image5 from "../../assets/images/portfolio-fs/cityhope.jpg";
@@ -11,14 +11,14 @@ import image6 from "../../assets/images/portfolio-fs/heartland.jpg";
 import image7 from "../../assets/images/portfolio-fs/qwitters.jpg";
 import image8 from "../../assets/images/portfolio-fs/lcr.jpg";
 import image9 from "../../assets/images/portfolio-fs/TodosList.jpg";
-import image10 from "../../assets/images/portfolio-fs/2a.jpg";
+import image10 from "../../assets/images/portfolio-fs/m2.png";
 import image11 from "../../assets/images/portfolio-fs/ConnectFour.jpg";
 import image12 from "../../assets/images/portfolio-fs/RockPaperScissors.jpg";
 import image13 from "../../assets/images/portfolio-fs/xclusive.jpg";
 import image14 from "../../assets/images/portfolio-fs/Maze.jpg";
 import image15 from "../../assets/images/portfolio-fs/TowerOfHanoi.jpg";
 import image16 from "../../assets/images/portfolio-fs/mbp-react.jpg";
-import image17 from "../../assets/images/portfolio-fs/11a.jpg";
+import image17 from "../../assets/images/portfolio-fs/chaos.png";
 import image18 from "../../assets/images/portfolio-fs/lpc.jpg";
 import image19 from "../../assets/images/portfolio-fs/ostara.jpg";
 import image20 from "../../assets/images/portfolio-fs/root66.jpg";
@@ -68,13 +68,11 @@ export default class FSPortfolio extends Component {
       <>
         <img src={image2} alt="2" />
         <div className="carousel-description">
-          <strong>Vue.js Sample Survey Component</strong>
+          <strong>Custom Wordpress CMS Website - Custom Theme</strong>
           <br/>
-          <a target="_blank" rel="noreferrer" href="https://github.com/Mike-Boring/vue-developer-sample">
-            View Github Repo
-          </a> - <a target="_blank" rel="noreferrer" href="https://mike-boring.github.io/vue-developer-sample/">
-            View Deployed Application
-          </a>
+          <a target="_blank" rel="noreferrer" href="https://strawberryfieldscannabis.com/">
+            View Website
+          </a> 
         </div>
       </>
       )},
@@ -133,7 +131,7 @@ export default class FSPortfolio extends Component {
         <>
           <img src={image6} alt="6" />
           <div className="carousel-description">
-            <strong>Wordpress CMS</strong>
+            <strong>Wordpress CMS - Custom Theme</strong>
             <br/>
             <a target="_blank" rel="noreferrer" href="https://heartlandcannabisproducts.com/">
               View Website
@@ -240,9 +238,9 @@ export default class FSPortfolio extends Component {
       <>
         <img src={image10} alt="10" />
         <div className="carousel-description">
-          <strong>Wordpress CMS - Event Calendar - Prayer Wall - Ecommerce</strong>
+          <strong>Wordpress CMS - Custom News Section</strong>
           <br/>
-          <a target="_blank" rel="noreferrer" href="http://remnantseedgospelministries.org/">
+          <a target="_blank" rel="noreferrer" href="https://m2groupllc.com/news/">
             View Website
           </a>
         </div>
@@ -299,9 +297,9 @@ export default class FSPortfolio extends Component {
         <>
           <img src={image17} alt="17" />
           <div className="carousel-description">
-            <strong>Wordpress CMS - Ecommerce</strong>
+            <strong>Wordpress CMS - Custom Theme</strong>
             <br/>
-            <a target="_blank" rel="noreferrer" href="https://precisionextracts.com/">
+            <a target="_blank" rel="noreferrer" href="https://chaosedibles.com/">
               View Website
             </a>
           </div>
@@ -314,7 +312,7 @@ export default class FSPortfolio extends Component {
         <>
           <img src={image18} alt="18" />
           <div className="carousel-description">
-            <strong>Wordpress CMS - MLS Search Integration</strong>
+            <strong>Wordpress CMS - MLS Search Integration - Custom Theme</strong>
             <br/>
             <a target="_blank" rel="noreferrer" href="https://legacypropertiesofcolorado.com/">
               View Website
