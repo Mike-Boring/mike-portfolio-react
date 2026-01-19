@@ -40,6 +40,9 @@
   color: lightgrey;
   text-decoration: none;
 }
+a.smallAnchor {
+  font-size: .6em;
+}
 #portfolioFS .css-1fzpoyk,
 #portfolioD .css-1fzpoyk {
   position: absolute;

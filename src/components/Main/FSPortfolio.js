@@ -6,7 +6,7 @@ import image1 from "../../assets/images/portfolio-fs/12a.jpg";
 import image2 from "../../assets/images/portfolio-fs/VueSample.jpg";
 import image3 from "../../assets/images/portfolio-fs/shoppies.jpg";
 import image4 from "../../assets/images/portfolio-fs/13a.jpg";
-import image5 from "../../assets/images/portfolio-fs/jeopardy.jpg";
+import image5 from "../../assets/images/portfolio-fs/cityhope.jpg";
 import image6 from "../../assets/images/portfolio-fs/heartland.jpg";
 import image7 from "../../assets/images/portfolio-fs/qwitters.jpg";
 import image8 from "../../assets/images/portfolio-fs/lcr.jpg";
@@ -118,13 +118,10 @@ export default class FSPortfolio extends Component {
         <>
           <img src={image5} alt="5" />
           <div className="carousel-description">
-            <strong>React/Redux Application, REST API</strong>
+            <strong>Custom Wordpress CMS, Custom Plugins and Theme<br/><a className="smallAnchor" href="mailto:jadenicol.designs@gmail.com">(Design by Dragon)</a></strong>
             <br/>
-            <a target="_blank" rel="noreferrer" href="https://gitlab.com/Shekinah999/jeopardy-lab">
-              View Gitlab Repo
-            </a> - 
-            <a target="_blank" rel="noreferrer" href="https://shekinah999.gitlab.io/jeopardy-lab/">
-              View Deployed Application
+            <a target="_blank" rel="noreferrer" href="https://cityhopefoundation.org/">
+              View Website
             </a>
           </div>
         </>
@@ -168,7 +165,7 @@ export default class FSPortfolio extends Component {
         <>
           <img src={image8} alt="8" />
           <div className="carousel-description">
-            <strong>Wordpress CMS - Custom Theme</strong>
+            <strong>Wordpress CMS - Custom Theme<br/><a className="smallAnchor" href="mailto:jadenicol.designs@gmail.com">(Design by Dragon)</a></strong>
             <br/>
             <a target="_blank" rel="noreferrer" href="https://lcrhomeloans.com/">
               View Website
@@ -199,7 +196,7 @@ export default class FSPortfolio extends Component {
         <>
           <img src={image13} alt="13" />
           <div className="carousel-description">
-            <strong>wordpress CMS - Custom Theme, Custom Javascript Components</strong>
+            <strong>wordpress CMS - Custom Theme, Custom Javascript Components<br/><a className="smallAnchor" href="mailto:jadenicol.designs@gmail.com">(Design by Dragon)</a></strong>
             <br/>
             <a target="_blank" rel="noreferrer" href="https://xclusivecannabis.com/">
               View Website
