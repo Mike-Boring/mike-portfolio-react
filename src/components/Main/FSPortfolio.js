@@ -41,12 +41,25 @@ export default class FSPortfolio extends Component {
             <br/>
             <a target="_blank" rel="noreferrer" href="https://github.com/Mike-Boring/micro-brew-for-you-capstone">
               View Github Repo
-            </a> - <a target="_blank" rel="noreferrer" href="http://shekinah99913.pythonanywhere.com/">
-              View Deployed App
             </a>
           </div>
         </>
       )},
+      {
+      key: 5,
+      content: (
+        <>
+          <img src={image5} alt="5" />
+          <div className="carousel-description">
+            <strong>Custom Wordpress CMS, Custom Plugins and Theme<br/><a className="smallAnchor" href="mailto:jadenicol.designs@gmail.com">(Design by Dragon)</a></strong>
+            <br/>
+            <a target="_blank" rel="noreferrer" href="https://cityhopefoundation.org/">
+              View Website
+            </a>
+          </div>
+        </>
+      )
+    },
       {
         key: 19,
         content: (
@@ -105,21 +118,6 @@ export default class FSPortfolio extends Component {
             </a> - 
             <a target="_blank" rel="noreferrer" href="https://github.com/Mike-Boring/ghostpost_backend">
               View Backend Repo
-            </a>
-          </div>
-        </>
-      )
-    },
-    {
-      key: 5,
-      content: (
-        <>
-          <img src={image5} alt="5" />
-          <div className="carousel-description">
-            <strong>Custom Wordpress CMS, Custom Plugins and Theme<br/><a className="smallAnchor" href="mailto:jadenicol.designs@gmail.com">(Design by Dragon)</a></strong>
-            <br/>
-            <a target="_blank" rel="noreferrer" href="https://cityhopefoundation.org/">
-              View Website
             </a>
           </div>
         </>
